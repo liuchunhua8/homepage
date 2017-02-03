@@ -1,0 +1,201 @@
+/*更多商品*/
+.w9{
+    margin: 0 auto;
+    width: 988px;
+    /* position: relative;*/
+}
+
+.w9 .alla{
+    /*margin-top: 40px;*/
+    position: absolute;
+    top:1550px;
+    right: 1010px;
+}
+.fo {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    top:1610px;
+    left:0;
+}
+
+.nx{
+    float: left;
+    background-color: rgb(48, 48, 48);
+    color: rgb(223, 223, 223);
+    margin-left: 30px;
+}
+.footera .pr .nx>ul {
+    float: left;
+    width: 167px;
+
+}
+
+.footera .pr .nx>ul>li {
+    padding-top:9px ;
+}
+.footera .pr .nx>ul>li a{color: #666666;}
+.footera .pr .nx>ul>li a:hover{
+    color: #fff;
+}
+.sh{
+    float: right;
+    margin-right:30px;
+}
+.sh .my{
+    margin-bottom: 20px;
+}
+.sh .my .title{
+    padding-bottom: 21px;
+}
+.sh .my .email{
+    position: relative;
+    width: 320px;
+    height: 54px;
+    background-color: #4b4b4b;
+}
+.sh .my .email>input{
+    display: inline-block;
+    width: 248px;
+    height: 54px;
+    padding: 0 0 0 15px;
+    border: none;
+    background-color: #434343;
+    color: #ccc;
+    font-size: 14px;
+}
+.sh .my .email>a{
+    display: inline-block;
+    width: 248px;
+    /*height: 54px;*/
+    padding: 0 0 0 15px;
+    border: none;
+    background-color: #434343;
+    color: #ccc;
+    font-size: 14px;
+}
+.sh .my .email>a>i{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    width: 32px;
+    height: 22px;
+    background: url(../img/nu.png) no-repeat -200px 0;
+}
+.sh .my .email .error{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 320px;
+    display: none;
+    border: 3px solid #d9534f;
+    color: #d9534f;
+    background-color: #fff;
+    text-align: center;
+    height: 54px;
+    line-height: 48px;
+}
+.sh .my .email .sloading{
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+.sh .my .email .sloading>div{
+    height: 5px;
+    width: 5px;
+}
+
+.sh .sns ul li{
+    float: left;
+    margin-left: 24px;
+    margin-top: -20px;
+    text-align: center;
+}
+.sh .sns ul li a:hover{
+    background-color:#d3d3d3;
+}
+.sh .sns li .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    display: inline-block;
+}
+.sh .sns .icona{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: 0 0;
+}
+.sh .sns .icong{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: 0 -167px;
+}
+.sh .sns .icong .qrweixin{
+    display: none;
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    bottom: 59px;
+    left: 950px;
+    background: url(../img/QR.png) center center no-repeat;
+    background-color: #d4d4d4;
+}
+.sh .sns .icong .qrweixin i{
+    position: absolute;
+    bottom: -24px;
+    left: 40%;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    width: 0;
+    border: 12px solid transparent;
+    border-top-color: #d4d4d4;
+}
+.sh .sns .iconh{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -46px -167px;
+}
+.sh .sns .iconb{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -40px 0;
+}
+.sh .sns .iconf{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -160px 0;
+}
+.fl{
+
+    width: 100%;
+    background-color: #fff;
+    /*height: 170px;*/
+    position: absolute;
+    top:1799px;
+    left: 0;
+}
+.fl .ner{
+    width: 1240px;
+    margin: 0 auto;
+}
+.ddn{
+    float: left;
+    display: block;
+    width: 96px;
+    height: 42px;
+    margin-left:1050px;
+    margin-top:-40px;
+    background:  url(../img/ul.gif) no-repeat 0 0;
+}
+.work{
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+

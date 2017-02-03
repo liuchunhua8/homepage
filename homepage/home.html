@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link  rel="stylesheet" href="css/home.css" /><!--导航栏样式-->
+		<link rel="stylesheet" href=" css/banner.css" /><!--banner及以下的样式-->
+		<link rel="stylesheet" href="css/min460.css">
+		<script type="text/javascript" src="js/Ajax.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/json.js"></script>
+		<script type="text/javascript" src="js/lunbo.js"></script>
+		<script type="text/javascript" src="js/white.js"></script>
+		
+	</head>
+	<body>
+	<div id="top">
+		<!--导航-->
+		<div class="wrap" id="wrap">
+			<div class="black" id="black">
+				<div class="topBar clearfix" id="topBar">
+					<ul id="left">
+						<li class="w"><a href="#"><!--<img src="img/k3.jpg">--></a></li>
+						<li><input type="search" class="txt" id="txt"   placeholder="请输入关键字搜索"></li>
+						<li class="r"><i><img src="img/k2.jpg"/></i></li>
+						<li class="x">每日10点上新</li>
+						<li class="n">满249元包邮</li>
+					</ul>
+					<!--微博-->
+					<div class="clearfix box">
+						<a href="#" class="shu"><div>
+							<div class="triangle"></div>
+							<div class="diamonds">
+								<img src="img/k4.gif" />
+							</div>
+						</div></a>
+						
+						<a href="#" class="wei"><div  >
+							<span class="te"></span>
+							<p class="character">加关注</p>
+						</div></a>
+					</div>
+					<div id="right">
+						<ul >
+							<a href="#" class="dian" id="dian">
+							<li id="go"></li>
+							<li class="right-g">购物车</li>
+							<li id="h">0</li>
+							</a>
+							<li id="v">|</li>
+							<li id="s"> <a href="log.html">登录&nbsp;|&nbsp;注册</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--白导航-->
+			<div class="white-logo" id="white">
+				<div class="white" id="whit">
+					<ul class="keyword">
+						<li class="da"><a href="#" >大家喜欢</a></li>
+						<li class="one" id="one"><a href="#">女装服饰</a>
+							<!--女装-->
+								<div class="container" id="container">
+									<div class="cont">
+										<div class="zuo">
+											<h3>逛分类</h3>
+											<div class="naxbox" id="naxbox1">
+											<!--	<a href="#">新品</a>
+												<a href="#">T恤背心</a>
+												<a href="#">卫衣</a>
+												<a href="#">衬衫</a>
+												<a href="#">毛衣针织</a>
+												<a href="#">外套</a>-->
+											</div>
+											<div class="naxbox" id="naxbox2">
+												<!--<a href="#">半身裙</a>
+												<a href="#">连衣裙</a>
+												<a href="#">牛仔裤</a>
+												<a href="#">裤装</a>
+												<a href="#">泳衣</a>
+												<a href="#">内衣</a>-->
+											</div>
+											<div class="naxbox" id="naxbox3">
+												<a href="#">袜子</a>
+												<a href="#">鞋靴</a>
+												<a href="#">牛仔裤</a>
+												<a href="#">箱包</a>
+												<a href="#">饰品</a>
+												<a href="#">限时暖价</a>
+											</div>
+											<div class="naxbox" id="naxbo"></div>
+										</div>
+										<div class="recomment">
+											<h3>特别推荐</h3>
+											<div class="recomment-nav" id="nav">
+												<a href="#">暖岛独家 </a>
+												<!--女装-->
+												<a href="#">买手精选 </a>
+												<a href="#">编辑推荐</a>
+												<a href="#">岛民最爱 </a>
+												<a href="#">本月星座 </a>
+												<a href="#">LookBook </a>
+											</div>
+											<div class="recomment-show" id="show">
+												<a href="#" title=""><img src="img/e1.jpg" alt="手套"></a>
+												<a href="#" title=""><img src="img/e2.jpg" alt="衣服"></a>
+												<a href="#" title=""><img src="img/e3.jpg" alt="衣服"></a>
+												<a href="#" title=""><img src="img/e4.jpg" alt="衣服"></a>
+												<a href="#" title=""><img src="img/e5.jpg" alt="衣服"></a>
+												<a href="#" title=""><img src="img/e6.jpg" alt="衣服"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+						</li>
+						<li class="one" id="man"><a href="#">男装服饰</a>
+							<!--男装-->
+							<div class="container1" id="container1">
+									<div class="cont1">
+										<div class="zuo1">
+											<h3>逛分类</h3>
+											<div class="naxbox" id="naxbox4">
+												<a href="#">新品</a>
+												<a href="#">T恤背心</a>
+												<a href="#">卫衣</a>
+												<a href="#">衬衫</a>
+												<a href="#">毛衣针织</a>
+												<a href="#">外套</a>
+											</div>
+											<div class="naxbox" id="naxbox5">
+												<a href="#">牛仔裤</a>
+												<a href="#">裤装</a>
+												<a href="#">内衣</a>
+												<a href="#">袜子</a>
+												<a href="#">鞋子</a>
+												<a href="#">箱包</a>
+											</div>
+											<div class="naxbox" id="naxbox6">
+												<a href="#">饰品</a>
+												<a href="#">配件</a>
+												<a href="#">限时暖价</a>
+											</div>
+										</div>
+										<div class="recomment">
+											<h3>特别推荐</h3>
+											<div class="recomment-nav" id="nav1">
+												<a href="#">暖岛独家 </a>
+												<!--男装-->
+												<a href="#">买手精选 </a>
+												<a href="#">编辑推荐 </a>
+												<a href="#">岛民最爱 </a>
+												<a href="#">本月星座 </a>
+												<a href="#">LookBook</a>
+											</div>
+											<div class="recomment-show" id="recomment-show1">
+												<a href="#" title=""><img src="img/e7.jpg"></a>
+												<a href="#" title=""><img src="img/e8.jpg"></a>
+												<a href="#" title=""><img src="img/e9.jpg"></a>
+												<a href="#" title=""><img src="img/e10.jpg"></a>
+												<a href="#" title=""><img src="img/e11.jpg"></a>
+												<a href="#" title=""><img src="img/e12.jpg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+						</li>
+						<li class="one" id="jiankang"><a href="#">美容健康</a>
+							<div class="container2" id="container2">
+									<div class="cont2">
+										<div class="zuo2">
+											<h3>逛分类</h3>
+											<div class="naxbox" id="naxb">
+												<a href="#">新品</a>
+												<a href="#">彩妆</a>
+												<a href="#">指彩</a>
+												<a href="#">面部护理</a>
+												<a href="#">香氛</a>
+												<a href="#">身体护理</a>
+											</div>
+											<div class="naxbox" id="nax">
+												<a href="#">礼品组合</a>
+												<a href="#">男士护肤</a>
+												<a href="#">女士护肤</a>
+												<a href="#">美发护发</a>
+												<a href="#">美妆大促</a>
+												<a href="#">限时暖价</a>
+											</div>
+											<div class="naxbox" id="na"></div>
+										</div>
+										<div class="recomment">
+											<h3>特别推荐</h3>
+											<div class="recomment-nav" id="recomment-nav">
+												<a href="#">暖岛独家</a>
+												<!--美容-->
+												<a href="#">买手精选 </a>
+												<a href="#">编辑推荐 </a>
+												<a href="#">岛民最爱</a>
+												<a href="#">本月星座</a>
+												<a href="#">LookBook </a>
+											</div>
+											<div class="recomment-show" id="recomment-show">
+												<a href="#" title=""><img src="img/e13.jpg"></a>
+												<a href="#" title=""><img src="img/e14.jpg"></a>
+												<a href="#" title=""><img src="img/e15.jpg"></a>
+												<a href="#" title=""><img src="img/e16.jpg"></a>
+												<a href="#" title=""><img src="img/e17.jpg"></a>
+												<a href="#" title=""><img src="img/e18.jpg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+						</li>
+						<li class="one" id="chuang"><a href="#">家居创意</a>
+							<div class="container3" id="container3">
+								<div class="cont3">
+									<div class="zuo3">
+										<h3>逛分类</h3>
+										<div class="naxbox" id="n">
+											<a href="#">新品</a>
+											<a href="#">家纺</a>
+											<a href="#">香氛</a>
+											<a href="#">厨具</a>
+											<a href="#">杯具</a>
+											<a href="#">灯具</a>
+										</div>
+										<div class="naxbox" id="fu">
+											<a href="#">家具</a>
+											<a href="#">书籍音乐</a>
+											<a href="#">文具</a>
+											<a href="#">宠物用品</a>
+											<a href="#">美食</a>
+											<a href="#">钟表</a>
+										</div>
+										<div class="naxbox" id="fu1">
+											<a href="#">卫浴</a>
+											<a href="#">雨具</a>
+											<a href="#">玩具娱乐</a>
+											<a href="#">家装软饰</a>
+											<a href="#">家居硬饰</a>
+											<a href="#">限时暖价</a>
+										</div>
+									</div>
+									<div class="recomment">
+										<h3>特别推荐</h3>
+										<div class="recomment-nav">
+											<a href="#">暖岛独家 </a>
+											<!--家具-->
+											<a href="#">买手精选 </a>
+											<a href="#">编辑推荐 </a>
+											<a href="#">岛民最爱 </a>
+											<a href="#">本月星座</a>
+											<a href="#">LookBook </a>
+										</div>
+										<div class="recomment-show">
+											<a href="#" title=""><img src="img/e19.jpg"></a>
+											<a href="#" title=""><img src="img/e20.jpg"></a>
+											<a href="#" title=""><img src="img/e21.jpg"></a>
+											<a href="#" title=""><img src="img/e22.jpg"></a>
+											<a href="#" title=""><img src="img/e23.jpg"></a>
+											<a href="#" title=""><img src="img/e24.jpg"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="one" id="wai"><a href="#">数码户外</a>
+							<div class="container4" id="container4">
+									<div class="cont4">
+										<div class="zuo4">
+											<h3>逛分类</h3>
+											<div class="naxbox" id="fu3">
+												<!--<a href="#">新品</a>
+												<a href="#">手机及配件</a>
+												<a href="#">平板及配件</a>
+												<a href="#">摄影摄像</a>
+												<a href="#">音乐设备</a>
+												<a href="#">电脑周边</a>-->
+											</div>
+											<div class="naxbox" id="fu3">
+												<a href="#">户外</a>
+												<a href="#">限时暖价</a>
+											</div>
+										</div>
+										<div class="recomment">
+											<h3>特别推荐</h3>
+											<div class="recomment-nav">
+												<a href="#">暖岛独家 </a>
+												<!--家具-->
+												<a href="#">买手精选 </a>
+												<a href="#">编辑推荐 </a>
+												<a href="#">岛民最爱 </a>
+												<a href="#">本月星座 </a>
+												<a href="#">LookBook </a>
+											</div>
+											<div class="recomment-show">
+												<a href="#" title=""><img src="img/e25.jpg"></a>
+												<a href="#" title=""><img src="img/e26.jpg"></a>
+												<a href="#" title=""><img src="img/e27.jpg"></a>
+												<a href="#" title=""><img src="img/e28.jpg"></a>
+												<a href="#" title=""><img src="img/e29.jpg"></a>
+												<a href="#" title=""><img src="img/e30.jpg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+						</li>
+						<li class="one" id="nuan"><a href="#" id="ll" >限时暖价</a>
+							<div class="container5" id="container5">
+								<div class="cont5">
+									<div class="zuo5">
+											<h3>逛分类</h3>
+											<div class="naxbox" id="fu4">
+												<a href="#">女装服饰</a>
+												<a href="#">男装服饰</a>
+												<a href="#">美容健康</a>
+												<a href="#">家居创意</a>
+												<a href="#">数码户外</a>
+											</div>
+										</div>
+								</div>
+							</div>
+						</li>
+						<li class="one" id="lv"><a href="#" >精选品牌</a></li>
+						<li class="one" id="ping"><a href="#" id="pi">订制商品</a>
+							<div class="container6 clearfix" id="container6"  >
+								<div class="cont6 clearfix" >
+									<div class="zuo6" >
+										<div class="zt"  >
+											<h3>透明硬壳</h3>
+										</div>
+										<div class="naxbox" id="naxbox">
+											<div class="cp-modem">
+											<!--	<a href="#">iphone 6s/6 透明硬壳</a>-->
+											</div>
+											<div class="cp-modem" >
+												<!--<a href="#">iphone 6s plus/6 plus 透明硬壳</a>-->
+											</div>
+											<div class="cp-modem">
+												<!--<a href="#">iphone 5s/5 透明硬壳</a>-->
+											</div>
+											<div class="cp-modem" >
+												<a href="#">Samsung Note 5 透明硬壳</a>
+											</div>
+											<div class="cp-modem" >
+												<!--<a href="#">华为 Mate7 透明硬壳</a>-->
+											</div>
+											<div class="cp-modem" >
+												<a href="#">小米 4 透明硬壳</a>
+											</div>
+										</div>
+										<div class="zt" >
+											<h3 >透明软壳</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem" >
+												<a href="#">iphone 6s/6 透明软壳</a>
+											</div>
+											<div class="cp-modem" >
+												<a href="#">iphone 6s plus/6 plus 透明软壳</a>
+											</div>
+										</div>
+									</div>
+									<div class="zuo6" >
+										<div class="zt">
+											<h3 >白底光面硬壳</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem">
+												<a href="#"> iphone 6 手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">iPhone 6 Plus 手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">iPhone 5s/5 手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">Samsung S6 手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">华为 P7 手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">华为 荣耀 6 手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">红米 Note 手机壳</a>
+											</div>
+										</div>
+										<div class="zt" >
+											<h3 >白底磨砂硬壳</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem" >
+												<a href="#">Phone 6 磨砂手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">iPhone 6 plus 磨砂手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">iPhone 5s/5 磨砂手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">Samsung S6 磨砂手机壳</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">华为荣耀 6 磨砂手机壳</a>
+											</div>
+										</div>
+									</div>
+									<div class="zuo6" >
+										<div class="zt">
+											<h3 >无框画</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem">
+												<a href="#">无框画（15 x 15 厘米）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">无框画（30 x 30 厘米）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">无框画（45 x 30 厘米）</a>
+											</div>
+										</div>
+										<div class="zt">
+											<h3 >贴纸</h3>
+										</div>
+										<div class="naxbox">
+											<div class="cp-modem" >
+												<a href="#">正方形贴纸</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">长方形贴纸</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">圆形贴纸</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">星形贴纸</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">心形贴纸</a>
+											</div>
+										</div>
+										<div class="zt">
+											<h3 >水包裝</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem">
+												<a href="#">瓶装饮用水(350ml/瓶)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">瓶装饮用水(350ml*6 瓶)</a>
+											</div>
+										</div>
+									</div>
+									<div class="zuo6">
+										<div class="zt">
+											<h3 >U盘</h3>
+										</div>
+										<div class="naxbox">
+											<div class="cp-modem">
+												<a href="#">U盘 16G（白色）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">U盘 16G（黑色）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">U盘 2G（白色）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">U盘 2G（黑色）</a>
+											</div>
+										<div class="zt">
+											<h3 >充电宝</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem" >
+												<a href="#">充电宝 2500 mAh（白色）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">充电宝 2500 mAh（黑色）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">充电宝 5000 mAh（白色）</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">充电宝 5000 mAh（黑色）</a>
+											</div>
+										</div>
+										<div class="zt">
+											<h3 >马克杯</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem" >
+												<a href="#">马克杯</a>
+											</div>
+										</div>
+										<div class="zt">
+											<h3 >布艺书皮</h3>
+										</div>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem">
+												<a href="#">布艺书皮(附 A5 空白内页)</a>
+											</div>
+										</div>
+									</div>
+									<div class="zuo6" >
+										<div class="zt">
+											<h3 >T恤</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem">
+												<a href="#">白色短袖T恤(S号)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">白色短袖T恤(M号)</a>
+											</div>
+											<div class="cp-model">
+												<a href="#">白色短袖T恤(L号)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">黑色短袖T恤(S号)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">黑色短袖T恤(M号)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">黑色短袖T恤(L号)</a>
+											</div>
+										</div>
+										<div class="zt">
+											<h3 >抱枕</h3>
+										</div>
+										<div class="naxbox" >
+											<div class="cp-modem" >
+												<a href="#">双面蜜桃绒抱枕(45 x 45 cm)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">双面软毛绒抱枕(45 x 45 cm)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">双面蜜桃绒抱枕(35 x 35 cm)</a>
+											</div>
+											<div class="cp-modem">
+												<a href="#">双面软毛绒抱枕(35 x 35 cm)</a>
+												</div>
+											</div> 
+											
+										</div>
+										
+									<!--</div>-->
+								</div>
+							</div>
+						</li>
+					</ul>
+					<ul class="sys" id="sys">
+						<a href="#"><li  class="people"></li></a>
+						<li class="gift"><a href="#">邀好友立送20元</a></li>
+						<li class="sr">
+						<a href="#"><li class="mobile" id="mobile"></li></a>
+						<li class="cl" id="cl"><a href="#" >手机版</a></li>
+						<!--手机二维码-->
+						<div class="three" id="three">
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+						</li>
+						<a href="#"><li class="icon" id="icon">
+							<!--微信的二维码-->
+							<div class="asid" id="asid"></div>
+						</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--</div>-->
+		<!--轮播图-->
+		<div class="boxx" id="play">
+		    <p class="prev">&laquo;</p>
+		    <p class="next">&raquo;</p>
+		    <ol>
+			        <li class="active"><a href="new.html"><img src="img/w1.png"/></a></li>
+			        <li><img src="img/w2.png"/></li>
+			       <li><img src="img/w3.png"/></li>
+			        <li><img src="img/w4.png"/></li>
+			       <li><img src="img/w5.png"/></li>
+			       <li><img src="img/w6.png"/></li>
+			       <li><img src="img/w7.png"/></li>
+			       <li><img src="img/w8.png"/></li>
+		    </ol>
+		    <ul>
+			        <li><a href="new.html"><img src="img/n1.jpg" /></a></li>
+			        <li><a href="#"><img src="img/n2.jpg" /></a></li>
+			        <li><a href="#"><img src="img/n3.jpg" /></a></li>
+			        <li><a href="#"><img src="img/n4.jpg" /></a></li>
+			         <li><a href="#"><img src="img/n5.jpg" /></a></li>
+			          <li><a href="#"><img src="img/n6.jpg" /></a></li>
+			           <li><a href="#"><img src="img/n7.jpg" /></a></li>
+			        <li><a href="#"><img src="img/n8.png"/></a></li>
+		        
+		    </ul>
+		</div>
+		<!--全球设计-->
+		<div class="dark" id="dark">
+			<div class="mei">
+				<img  src="img/hi.png" />
+			</div>	
+		</div>
+		<!--衣服图片-->
+		<div class="clear xi">
+			<div class="xin">
+				<h1>今日上新</h1>
+			</div>
+		</div>
+		<!--衣服展示-->
+		<div class="ro">
+			<div class="row" id="row">
+				<div class="sele-leaf" id="sele">
+					<a class="salem" href="#" title="“北欧之春”新款抱枕"target="">
+						<div class="subtile" id="subtile">“北欧之春”新款抱枕</div>
+						<img class="currentImage" id="curr" src="img/i0.jpg" />
+					</a>
+					<div class="sele-infor" id="infor">
+						<a class="co2" href="#">给自己的午睡带来舒适的体验</a>
+					</div>
+				</div>
+				<div class="sele-leaf" id="sele">
+					<a class="salem" href="#" title="#BBF限量版小熊香水系列" target="">
+						<div class="subtile" id="subtile">#BBF限量版小熊香水系列</div>
+						<img class="currentImage" id="curr" src="img/i1.jpg" />
+					</a>
+					<div class="sele-infor" id="infor">
+						<a class="co2" href="#">给TA爱的惊喜</a>
+					</div>
+				</div>
+				<div class="sele-leaf">
+					<a class="salem" href="#" title="“APMU毗沙歌” 创意新品系列" target="">
+						<div class="subtile">“APMU毗沙歌” 创意新品系列</div>
+						<img class="currentImage" src="img/i2.jpg" />
+					</a>
+					<div class="sele-infor">
+						<a class="co2" href="#">你的舒适，我的贴心</a>
+					</div>
+				</div>
+				<div class="sele-leaf">
+					<a class="salem" href="#" title="TAOTAOMIX创意配饰最新品" target="">
+						<div class="subtile">TAOTAOMIX创意配饰最新品</div>
+						<img class="currentImage" src="img/i3.jpg" />
+					</a>
+					<div class="sele-infor">
+						<a class="co2" href="#">靠谱玩家，快乐无限</a>
+					</div>
+				</div>
+				<div class="sele-leaf">
+					<a class="salem" href="#" title="MISS RAIN 高端雨具品牌" target="">
+						<div class="subtile">MISS RAIN 高端雨具品牌</div>
+						<img class="currentImage" src="img/i4.jpg" />
+					</a>
+					<div class="sele-infor">
+						<a class="co2" href="#">时尚人士出行的必备单品</a>
+					</div>
+				</div>
+				<div class="sele-leaf">
+					<a class="salem" href="#" title="“一勺” 天然原木餐具" target="">
+						<div class="subtile">“一勺” 天然原木餐具</div>
+						<img class="currentImage" src="img/i5.jpg" />
+					</a>
+					<div class="sele-infor">
+						<a class="co2" href="#">让餐桌多一点儿清新自然</a>
+					</div>
+				</div>
+				<div class="sele-leaf">
+					<a class="salem" href="#" title="WHAT COLOUR米粮大人" target="">
+						<div class="subtile">WHAT COLOUR米粮大人</div>
+						<img class="currentImage" src="img/i6.jpg" />
+					</a>
+					<div class="sele-infor">
+						<a class="co2" href="#">快让生米煮成熟饭吧</a>
+					</div>
+				</div>
+				<div class="sele-leaf">
+					<a class="salem" href="#" title="加拿大Umbra创意家居产品" target="">
+						<div class="subtile">加拿大Umbra创意家居产品</div>
+						<img class="currentImage" src="img/i7.jpg" />
+					</a>
+					<div class="sele-infor">
+						<a class="co2" href="#">带好设计回家</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--两个图片的-->
+		<div class="conad">
+			<div class="btm">
+				<a href="#" class="btma"></a>
+				<a href="#" class="btmb"></a>
+			</div>
+		</div>
+		<!--本周特卖-->
+		<div class="sele-weet">
+			<div class="week clearfix">
+				<div class="title clearfix">
+					<h1>本周特卖</h1>
+					<strong class="m-hidden">回顾本周新品 享持续特卖价</strong>
+				</div>
+		
+				<!--品牌图-->
+				<div class="panie">
+					<a href="#"></a>
+				</div>
+				<!--图片-->
+					<div class="row clearfix">
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="UL TRACOCOON萤致"target="">
+								<div class="subtile" id="subtile">UL TRACOCOON萤致</div>
+								<img  class="currentImage" id="curr" src="img/i8.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">与人相伴最长久的身外之物</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="经典Lomography相机原创系列"target="">
+								<div class="subtile" id="subtile">经典Lomography相机原创系列</div>
+								<img  class="currentImage" id="curr" src="img/i9.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">胶卷世界随你走</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="创意家居饰品"target="">
+								<div class="subtile" id="subtile">创意家居饰品</div>
+								<img  class="currentImage" id="curr" src="img/i10.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">来我家，看创意</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="原创品牌 “芮蒂RED”设计产品最新款"target="">
+								<div class="subtile" id="subtile">原创品牌 “芮蒂RED”设计产品最新款</div>
+								<img  class="currentImage" id="curr" src="img/i11.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">接收快乐的讯息</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“青城手制”手工天然花草饰品"target="">
+								<div class="subtile" id="subtile">“青城手制”手工天然花草饰品</div>
+								<img  class="currentImage" id="curr" src="img/i12.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">以永生之名</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="carinono 卡里努努品牌"target="">
+								<div class="subtile" id="subtile">carinono 卡里努努品牌</div>
+								<img  class="currentImage" id="curr" src="img/i13.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">奇幻世界的小王子</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="SPF Company舒倍防"target="">
+								<div class="subtile" id="subtile">SPF Company舒倍防</div>
+								<img  class="currentImage" id="curr" src="img/i14.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">完美防晒的最佳体验</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“觅潮记”传统手工艺潮汕美食"target="">
+								<div class="subtile" id="subtile">“觅潮记”传统手工艺潮汕美食</div>
+								<img  class="currentImage" id="curr" src="img/i15.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">让更多的人品尝到传统的味道</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="duga多加时尚包系列"target="">
+								<div class="subtile" id="subtile">duga多加时尚包系列</div>
+								<img  class="currentImage" id="curr" src="img/i16.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">极简风格，舒适生活</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="J匠人studio产品精选"target="">
+								<div class="subtile" id="subtile">J匠人studio产品精选</div>
+								<img  class="currentImage" id="curr" src="img/i17.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">对得起你的荷包最重要</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“自然和家”家居产品系列"target="">
+								<div class="subtile" id="subtile">“自然和家”家居产品系列</div>
+								<img  class="currentImage" id="curr" src="img/i18.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">舒服自然的木质感受</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="美国SwitchEasy全系列"target="">
+								<div class="subtile" id="subtile">美国SwitchEasy全系列</div>
+								<img  class="currentImage" id="curr" src="img/i19.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">你的苹果真的很需要它</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="油果日记原创服饰"target="">
+								<div class="subtile" id="subtile">油果日记原创服饰</div>
+								<img  class="currentImage" id="curr" src="img/i20.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">碰触青涩的记忆</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“安妮陈”文艺女装全系列"target="">
+								<div class="subtile" id="subtile">“安妮陈”文艺女装全系列</div>
+								<img  class="currentImage" id="curr" src="img/i21.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">轻松带来气质提升</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“地球是圆的”独立设计产品"target="">
+								<div class="subtile" id="subtile">“地球是圆的”独立设计产品</div>
+								<img  class="currentImage" id="curr" src="img/i22.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">复古先生的品质生活</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“夺手”手工定制鞋"target="">
+								<div class="subtile" id="subtile">“夺手”手工定制鞋</div>
+								<img  class="currentImage" id="curr" src="img/i23.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">拒绝机械化 传承手工艺</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“沐艺”新品系列"target="">
+								<div class="subtile" id="subtile">“沐艺”新品系列</div>
+								<img  class="currentImage" id="curr" src="img/i24.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">冬季潮男新装备</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="香港Animo Cave创意鱼包"target="">
+								<div class="subtile" id="subtile">香港Animo Cave创意鱼包</div>
+								<img  class="currentImage" id="curr" src="img/i25.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">让生活充满无限乐趣</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="UIUADA情侣系列服饰"target="">
+								<div class="subtile" id="subtile">UIUADA情侣系列服饰</div>
+								<img  class="currentImage" id="curr" src="img/i26.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">情侣装也可以大不一样</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="TAOTAOMIX创意配饰最新品"target="">
+								<div class="subtile" id="subtile">TAOTAOMIX创意配饰最新品</div>
+								<img  class="currentImage" id="curr" src="img/i27.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">靠谱玩家，快乐无限</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="BOWEN STUDIO原创3D设计品新系列"target="">
+								<div class="subtile" id="subtile">BOWEN STUDIO原创3D设计品新系列</div>
+								<img  class="currentImage" id="curr" src="img/i28.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">难以忘怀的痴缠</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="八涂原创设计产品"target="">
+								<div class="subtile" id="subtile">八涂原创设计产品</div>
+								<img  class="currentImage" id="curr" src="img/i29.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">无创意不设计</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="法国柔舒然护肤系列"target="">
+								<div class="subtile" id="subtile">法国柔舒然护肤系列</div>
+								<img  class="currentImage" id="curr" src="img/i30.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">欧洲天然有机产品领导者</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="加拿大Umbra创意家居产品"target="">
+								<div class="subtile" id="subtile">加拿大Umbra创意家居产品</div>
+								<img  class="currentImage" id="curr" src="img/i31.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">带好设计回家</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="INFLATION潮流品牌"target="">
+								<div class="subtile" id="subtile">INFLATION潮流品牌</div>
+								<img  class="currentImage" id="curr" src="img/i32.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">玩转不平凡的潮流</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="朋克状态原创服饰"target="">
+								<div class="subtile" id="subtile">朋克状态原创服饰</div>
+								<img  class="currentImage" id="curr" src="img/i33.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">朋克时代回来了！</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="Laurel Burch(劳雷尔.伯奇)全系列"target="">
+								<div class="subtile" id="subtile">Laurel Burch(劳雷尔.伯奇)全系列</div>
+								<img  class="currentImage" id="curr" src="img/i34.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">包包的色彩斑斓</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“不言”原创手工皮革小物"target="">
+								<div class="subtile" id="subtile">加拿大Umbra创意家居产品</div>
+								<img  class="currentImage" id="curr" src="img/i35.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">提供生活美好的视觉体验</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="荒原有木3D灯"target="">
+								<div class="subtile" id="subtile">荒原有木3D灯</div>
+								<img  class="currentImage" id="curr" src="img/i36.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">夜色温柔，你在，我也在</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“橙色”家居"target="">
+								<div class="subtile" id="subtile">“橙色”家居</div>
+								<img  class="currentImage" id="curr" src="img/i37.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">让性灵得以回归</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="星音XINGING原创产品"target="">
+								<div class="subtile" id="subtile">星音XINGING原创产品</div>
+								<img  class="currentImage" id="curr" src="img/i38.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">夜色温柔的那道光</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="DODO SOCKS STORE"target="">
+								<div class="subtile" id="subtile">DODO SOCKS STORE</div>
+								<img  class="currentImage" id="curr" src="img/i39.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">藏于脚腕的时尚密码</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="栗./悦原创服饰"target="">
+								<div class="subtile" id="subtile">栗./悦原创服饰</div>
+								<img  class="currentImage" id="curr" src="img/i40.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">追求简约自然的感觉</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="Pure Up 品牌集成店"target="">
+								<div class="subtile" id="subtile">Pure Up 品牌集成店</div>
+								<img  class="currentImage" id="curr" src="img/i41.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">时尚百搭店首选</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“超人掌”趣味家居原创设计品"target="">
+								<div class="subtile" id="subtile">“超人掌”趣味家居原创设计品</div>
+								<img  class="currentImage" id="curr" src="img/i43.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">随意揉捏的自然界</a>
+							</div>
+						</div>
+						<!--<div class="sele-leaf ">-->
+							<div class="sele-leaf ">
+								<a class="salem" href="#" title="imblu收纳系列"target="">
+									<div class="subtile" id="subtile">imblu收纳系列</div>
+									<img  class="currentImage" id="curr" src="img/i42.jpg" />
+								</a>
+								<div class="sele-infor" id="infor">
+									<a class="co2" href="#">安心收纳你的私物</a>
+								</div>
+							</div>
+							<div class="sele-leaf ">
+								<a class="salem" href="#" title="“超人掌”趣味家居原创设计品"target="">
+								<a class="salem" href="#" title="云之晶原创饰品精选"target="">
+								<div class="subtile" id="subtile">云之晶原创饰品精选</div>
+								<img  class="currentImage" id="curr" src="img/i44.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">爱美小姐的纯粹美学</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“茶密”Cha智能茶杯"target="">
+								<div class="subtile" id="subtile">“茶密”Cha智能茶杯</div>
+								<img  class="currentImage" id="curr" src="img/i45.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">好茶需有好杯泡</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="HONEYTEA秘蜜茶园"target="">
+								<div class="subtile" id="subtile">HONEYTEA秘蜜茶园</div>
+								<img  class="currentImage" id="curr" src="img/i46.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">将愉悦萦绕在喝茶的每一刻</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“NIGHT` S夜家居” 原创设计家居用品"target="">
+								<div class="subtile" id="subtile">“NIGHT` S夜家居” 原创设计家居用品</div>
+								<img  class="currentImage" id="curr" src="img/i47.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">创造高品位私人卧室</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="相对纶文艺复古女装"target="">
+								<div class="subtile" id="subtile">相对纶文艺复古女装</div>
+								<img  class="currentImage" id="curr" src="img/i48.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">古味回潮，文艺复古</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="黑贝壳HABIK创意产品"target="">
+								<div class="subtile" id="subtile">黑贝壳HABIK创意产品</div>
+								<img  class="currentImage" id="curr" src="img/i49.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">玩乐创意，非凡科技</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“安妮陈”文艺女装全系列"target="">
+								<div class="subtile" id="subtile">“安妮陈”文艺女装全系列</div>
+								<img  class="currentImage" id="curr" src="img/i50.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">轻松带来气质提升</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“拾Collection”原创全系列产品"target="">
+								<div class="subtile" id="subtile">“拾Collection”原创全系列产品</div>
+								<img  class="currentImage" id="curr" src="img/i51.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">致敬经典，不灭的梦想</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="丹麦AM屏幕清洁喷雾"target="">
+								<div class="subtile" id="subtile">丹麦AM屏幕清洁喷雾</div>
+								<img  class="currentImage" id="curr" src="img/i52.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">引领数码清洁的全新体验</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="“NIGHT” S夜家居 原创设计家居用品"target="">
+								<div class="subtile" id="subtile">“NIGHT” S夜家居 原创设计家居用品</div>
+								<img  class="currentImage" id="curr" src="img/i53.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">创造高品位私人卧室</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="解忧杂货铺原创产品"target="">
+								<div class="subtile" id="subtile">解忧杂货铺原创产品</div>
+								<img  class="currentImage" id="curr" src="img/i54.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">烦恼绝缘体</a>
+							</div>
+						</div>
+						<div class="sele-leaf ">
+							<a class="salem" href="#" title="西班牙Ostrich Pillow Light新款午睡枕"target="">
+								<div class="subtile" id="subtile">西班牙Ostrich Pillow Light新款午睡枕</div>
+								<img  class="currentImage" id="curr" src="img/i55.jpg" />
+							</a>
+							<div class="sele-infor" id="infor">
+								<a class="co2" href="#">享受午睡的美好时光</a>
+							</div>
+						</div>
+				<!--</div>-->
+			</div>
+		</div>
+		</div>
+    <!--尾部-->
+    <div class="footer clearfix" id="footer">
+        <div class="footera" id="footera">
+            <div class="pr" id="pr">
+                <div class="nv" id="nv">
+                    <ul>
+                        <li>逛逛暖岛</li>
+                        <li><a href="#">登录注册</a></li>
+                        <li><a href="#">下单及支付</a></li>
+                        <li><a href="#">使用代金券</a></li>
+                        <li><a href="#">找回密码</a></li>
+                    </ul>
+                    <ul>
+                        <li>订单详情</li>
+                        <li><a href="#">查询订单</a></li>
+                        <li><a href="#">追踪物流</a></li>
+                        <li><a href="#">配送费用</a></li>
+                        <li><a href="#">配送时间</a></li>
+                    </ul>
+                    <ul>
+                        <li>退货换货</li>
+                        <li><a href="#">退换规则</a></li>
+                        <li><a href="#">退换方式</a></li>
+                        <li><a href="#">退款时间</a></li>
+                        <li><a href="#">运费报销</a></li>
+                    </ul>
+                    <ul>
+                        <li>关于暖岛</li>
+                        <li><a href="/public/faq?q=6#q6-1">暖岛故事</a></li>
+                        <li><a href="/public/faq?q=6#q6-2">合作机会</a></li>
+                        <li><a href="/public/faq?q=6#q6-3">加入暖岛</a></li>
+                        <li><a href="/public/faq?q=6#q6-5">联系我们</a></li>
+                    </ul>
+                </div>
+               <div class="showto">
+				   <div class="my">
+					   <div class="title">订阅电子报</div>
+					   <div class="email">
+						   <input class="input" type="email" name="news-email" id="news-email" placeholder="请输入邮箱地址">
+						   <a herf="javascript:;" class="icon" id="newsbook-btn">
+							   <i>订阅</i>
+						   </a>
+						   <div id="booktips" class="error "></div>
+						   <div class="sloading" id="bookloading">
+							   <div></div>
+							   <div></div>
+							   <div></div>
+							   <div></div>
+						   </div>
+					   </div>
+				   </div>
+                   <div class="sns">
+					   <ul>
+						   <li><a href="#" target="_blank" title="新浪微博" class="icon icona">weibo</a></li>
+						   <li><a href="#" class="icon icong" id="icong" title="暖岛微信">暖岛微信<span class="qrweixin" id="qrweixin"><i></i></span></a></li>
+						   <li><a href="#" target="_blank" title="1626" class="icon iconh">1626</a></li>
+						   <li><a href="#" target="_blank" title="美丽说" class="icon iconb">美丽说</a></li>
+						   <li><a href="#" target="_blank" title="豆瓣东西" class="icon iconf">豆瓣小站</a></li>
+					   </ul>
+				   </div>
+			   </div>
+				<a href="#" class="scrolltop " title="回到顶部"></a>
+            </div>
+        </div>
+    </div>
+	<div class="footerb">
+		<div class="ner clearfix">
+			<div class="nav clearfix ">
+				<ul>
+					<li><a href="#" target="_blank">使用条款</a></li>
+					<LI>|</LI>
+					<li><a href="#" target="_blank">暖岛APP</a></li>
+					<LI>|</LI>
+					<li><a href="#" target="_blank">友情链接</a></li>
+				</ul>
+				<div class="copyright">
+					<span class="hidesm">Nuandao.com 北京暖岛网络信息科技有限公司&nbsp;</span>
+					©&nbsp;2011-2016&nbsp;All&nbsp;rights&nbsp;reserved&nbsp;<a href="http://www.miibeian.gov.cn">京ICP备13034710号-1</a>
+					&nbsp;|&nbsp;京公网安备11010102001819号&nbsp;|&nbsp;执照号：91110108584425669B&nbsp;|&nbsp;食品经营许可证：
+				</div>
+			</div>
+			<a class="dden" href="#" title="安全交易认证" target="_blank"></a>
+			<div class="work">                周一至周五9:30-18:00<br>                客服热线：010-65132273 </div>
+		</div>
+	</div>
+	<div style="position: fixed; z-index: 279; bottom: 5px; right: 5px;">
+		<a href="javascript:;" onclick="easemobim.bind({tenantId: 27912})"><img id="easemob-icon" src="img/ea.png"></a>
+	</div>
+	</div>
+	</body>
+</html>

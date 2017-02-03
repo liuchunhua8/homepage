@@ -1,0 +1,351 @@
+.black{
+    width:100%;top:0px;
+    background: #000000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+
+}
+.topBar{
+    width: 1242px;
+    background: #000000;
+    margin: 0 auto;
+    padding: 1px;
+
+}
+#left{
+    width: 697px;height: 46px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+#left .w{
+    width: 106px;height:39px;
+    margin-top: 4px;
+    background: url(../img/nu.png) no-repeat -50px -281px;
+    padding: 0px;
+}
+/*图片*/
+
+.default-bkg {
+    background: url(../img/default-bkg.jpg) center center;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    bottom: 80px;
+    z-index: 0;
+}
+
+.default-bkg-filter {
+    background: url(../img/default-bkg-filter.jpg) center center;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    bottom: 82px;
+    z-index: 1;
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+.video-bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    bottom: 75px;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+/*登录*/
+.dialog{
+    display: block;
+    width: 728px;
+    height: 458px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -364px;
+    margin-top: -239px;
+    background-color: #fff;
+    z-index: 999;
+}
+.login_aside {
+    float: left;
+    margin-left: 54px;
+    margin-top: 30px;
+    padding-right: 45px;
+    border-right: thin solid #DDD
+}
+.login_title {
+    font-size: 20px;
+    line-height: 1.6em;
+    letter-spacing: 0.1em;
+}
+.login_subtitle {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: #777;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.login_subtitle span {
+    color: #888;
+    font-size: 16px;
+    position: absolute;
+    left: 24%;
+    top: -11px;
+    background-color: #fff;
+    width: 148px;
+}
+.login_welcome {
+    color: #FF1177;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+}
+.login_promise {
+    color: #a5a5a5;
+    font-size: 15px;
+    margin-top: 18px;
+}
+/*右边的内容*/
+.login-main {
+    float: right;
+    margin-left: 45px;
+    margin-right: 46px;
+    width: 268px;
+}
+.login-main_title {
+    margin-top: 30px;
+    margin-bottom: 26px;
+    color: #999;
+    font-size: 16px;
+}
+.login-main_title a:hover, .login-main_title a.checked {
+    color: #303030;
+}
+.login-main_title a {
+    color: #ababab;
+}
+.login-main_saleInfo {
+    color: #d9534f;
+    float: right;
+}
+.login-account {
+    margin-bottom: 20px;
+    position: relative;
+}
+/*忘记密码*/
+.login-account_getpasswd {
+    text-align: right;
+    background: url(../img/nu.png) no-repeat 250px -319px;
+    padding-right: 18px;
+    margin-bottom: 10px;
+}
+.login-account_getpasswd a {
+    color: #979797;
+    font-size: 12px;
+}
+.login-account_go {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    letter-spacing: 0.1em;
+    background-color:#25a67e;
+}
+.login-account_error {
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+    color: #d9534f;
+    font-size: 13px;
+    display: none;
+}
+.login-other_title {
+    color: #ababab;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.login-account_field {
+    width: 268px;
+    height: 32px;
+    display: block;
+    border: 1px solid #dfdfdf;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 36px;
+    margin-bottom: 18px;
+}
+.login-account_email {
+    background: url(../img/nu.png) no-repeat -310px -390px;
+}
+.login-account_passwd {
+    background: url(../img/nu.png) no-repeat -333px -434px;
+}
+.login-other_wb {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: #d23838;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid red;
+    padding-left: 28px;
+    background: #fff url(../img/sns-bind.png) no-repeat 42px -422px;
+    margin-bottom: 6px;
+}
+.login-another_title {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.login-another_title a {
+    color: #ababab;
+    font-size: 12px;
+}
+.login-another_main {
+   /* width: 200px;*/
+    margin-left: auto;
+    margin-right: auto;
+   display: none;
+}
+.login-another_qq {
+    float: left;
+    width: 100px;
+    height: 20px;
+    color: #b1b1b1;
+    font-size: 13px;
+    background: #fff url(../img/sns-bind.png) no-repeat -36px -492px;
+    padding-left: 26px;
+}
+.login-another_rr {
+    float: left;
+    width: 100px;
+    height: 20px;
+    color: #b1b1b1;
+    font-size: 13px;
+    background: #fff url(../img/sns-bind.png) no-repeat -20px -462px;
+    text-align: right;
+}
+
+.login_declare, .login_declare a {
+    color: #ababab;
+    font-size: 12px;
+}
+.login_declare a {
+    text-decoration: underline;
+}
+.login_declare{
+    width: 220px;
+}
+.login-close {
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    width: 38px;
+    height: 38px;
+    background: url(../img/nu.png) no-repeat 0 -280px;
+    /*display: none;*/
+}
+
+.login-close b{font-size: 14px;}
+.shao2-helper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    background: url(../img/shao2-hide.png) no-repeat right bottom;
+    text-indent: -999em;
+}
+/*手机二维码吗*/
+.container-shao2 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: #fff;
+    font-size: 0;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-top: 1px solid #dfdfdf;
+    display: none;
+}
+.container-shao2 li {
+    font-size: 13px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    display: inline-block;
+}
+.container-shao2 li+li {
+    margin-left: 13px;
+}
+/*尾部*/
+.footerb{
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+.ner{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1240px;
+}
+.ner .nav{
+    float: left;
+}
+.ner .nav ul{
+    margin-bottom: 2px;
+}
+.ner .nav ul li{
+   padding: 0px 0px 0px 10px;
+    float: left;
+}
+.ner .nav a {
+    color: #303030;
+}
+
+.icon-315 {
+    float: left;
+    display: block;
+    width: 96px;
+    height: 42px;
+    margin-left: 20px;
+    background: url(../img/ul.gif) no-repeat 0 0;
+}
+.work {
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}

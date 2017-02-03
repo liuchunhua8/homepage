@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>塔卡沙tyakasha原创服饰</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link  rel="stylesheet" href="css/home.css" /><!--导航栏样式-->
+    <link rel="stylesheet" href=" css/banner.css" /><!--banner及以下的样式-->
+    <link rel="stylesheet" href="css/new.css"/>
+    <link rel="stylesheet" href="css/tyakasha.css">
+    <script type="text/javascript" src="js/Ajax.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/white.js"></script>
+</head>
+<body>
+<!--导航-->
+<div class="wrap" id="wrap">
+    <div class="black" id="black">
+        <div class="topBar clearfix" id="topBar">
+            <ul id="left">
+                <li class="w"><a href="#"><!--<img src="img/k3.jpg">--></a></li>
+                <li><input type="search" class="txt" id="txt"   placeholder="请输入关键字搜索"></li>
+                <li class="r"><i><img src="img/k2.jpg"/></i></li>
+                <li class="x">每日10点上新</li>
+                <li class="n">满249元包邮</li>
+            </ul>
+            <!--微博-->
+            <div class="clearfix box">
+                <a href="#" class="shu"><div>
+                    <div class="triangle"></div>
+                    <div class="diamonds">
+                        <img src="img/k4.gif" />
+                    </div>
+                </div></a>
+
+                <a href="#" class="wei"><div  >
+                    <span class="te"></span>
+                    <p class="character">加关注</p>
+                </div></a>
+            </div>
+            <div id="right">
+                <ul >
+                    <a href="#" class="dian" id="dian">
+                        <li id="go"></li>
+                        <li class="right-g">购物车</li>
+                        <li id="h">0</li>
+                    </a>
+                    <li id="v">|</li>
+                    <li id="s"> <a href="#">登录&nbsp;|&nbsp;注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--白导航-->
+    <div class="white-logo" id="white">
+        <div class="white" id="whit">
+            <ul class="keyword">
+                <li class="da"><a href="#" >大家喜欢</a></li>
+                <li class="one" id="one"><a href="#">女装服饰</a>
+                    <!--女装-->
+                    <div class="container" id="container">
+                        <div class="cont">
+                            <div class="zuo">
+                                <h3>逛分类</h3>
+                                <div class="naxbox" id="naxbox1">
+                                    <a href="#">新品</a>
+                                    <a href="#">T恤背心</a>
+                                    <a href="#">卫衣</a>
+                                    <a href="#">衬衫</a>
+                                    <a href="#">毛衣针织</a>
+                                    <a href="#">外套</a>
+                                </div>
+                                <div class="naxbox" id="naxbox2">
+                                    <a href="#">半身裙</a>
+                                    <a href="#">连衣裙</a>
+                                    <a href="#">牛仔裤</a>
+                                    <a href="#">裤装</a>
+                                    <a href="#">泳衣</a>
+                                    <a href="#">内衣</a>
+                                </div>
+                                <div class="naxbox" id="naxbox3">
+                                    <a href="#">袜子</a>
+                                    <a href="#">鞋靴</a>
+                                    <a href="#">牛仔裤</a>
+                                    <a href="#">箱包</a>
+                                    <a href="#">饰品</a>
+                                    <a href="#">限时暖价</a>
+                                </div>
+                                <div class="naxbox" id="naxbo"></div>
+                            </div>
+                            <div class="recomment">
+                                <h3>特别推荐</h3>
+                                <div class="recomment-nav" id="nav">
+                                    <a href="#">暖岛独家 </a>
+                                    <!--女装-->
+                                    <a href="#">买手精选 </a>
+                                    <a href="#">编辑推荐</a>
+                                    <a href="#">岛民最爱 </a>
+                                    <a href="#">本月星座 </a>
+                                    <a href="#">LookBook </a>
+                                </div>
+                                <div class="recomment-show" id="show">
+                                    <a href="#" title=""><img src="img/e1.jpg" alt="手套"></a>
+                                    <a href="#" title=""><img src="img/e2.jpg" alt="衣服"></a>
+                                    <a href="#" title=""><img src="img/e3.jpg" alt="衣服"></a>
+                                    <a href="#" title=""><img src="img/e4.jpg" alt="衣服"></a>
+                                    <a href="#" title=""><img src="img/e5.jpg" alt="衣服"></a>
+                                    <a href="#" title=""><img src="img/e6.jpg" alt="衣服"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="one" id="man"><a href="#">男装服饰</a>
+                    <!--男装-->
+                    <div class="container1" id="container1">
+                        <div class="cont1">
+                            <div class="zuo1">
+                                <h3>逛分类</h3>
+                                <div class="naxbox" id="naxbox4">
+                                    <a href="#">新品</a>
+                                    <a href="#">T恤背心</a>
+                                    <a href="#">卫衣</a>
+                                    <a href="#">衬衫</a>
+                                    <a href="#">毛衣针织</a>
+                                    <a href="#">外套</a>
+                                </div>
+                                <div class="naxbox" id="naxbox5">
+                                    <a href="#">牛仔裤</a>
+                                    <a href="#">裤装</a>
+                                    <a href="#">内衣</a>
+                                    <a href="#">袜子</a>
+                                    <a href="#">鞋子</a>
+                                    <a href="#">箱包</a>
+                                </div>
+                                <div class="naxbox" id="naxbox6">
+                                    <a href="#">饰品</a>
+                                    <a href="#">配件</a>
+                                    <a href="#">限时暖价</a>
+                                </div>
+                            </div>
+                            <div class="recomment">
+                                <h3>特别推荐</h3>
+                                <div class="recomment-nav" id="nav1">
+                                    <a href="#">暖岛独家 </a>
+                                    <!--男装-->
+                                    <a href="#">买手精选 </a>
+                                    <a href="#">编辑推荐 </a>
+                                    <a href="#">岛民最爱 </a>
+                                    <a href="#">本月星座 </a>
+                                    <a href="#">LookBook</a>
+                                </div>
+                                <div class="recomment-show" id="recomment-show1">
+                                    <a href="#" title=""><img src="img/e7.jpg"></a>
+                                    <a href="#" title=""><img src="img/e8.jpg"></a>
+                                    <a href="#" title=""><img src="img/e9.jpg"></a>
+                                    <a href="#" title=""><img src="img/e10.jpg"></a>
+                                    <a href="#" title=""><img src="img/e11.jpg"></a>
+                                    <a href="#" title=""><img src="img/e12.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="one" id="jiankang"><a href="#">美容健康</a>
+                    <div class="container2" id="container2">
+                        <div class="cont2">
+                            <div class="zuo2">
+                                <h3>逛分类</h3>
+                                <div class="naxbox" id="naxb">
+                                    <a href="#">新品</a>
+                                    <a href="#">彩妆</a>
+                                    <a href="#">指彩</a>
+                                    <a href="#">面部护理</a>
+                                    <a href="#">香氛</a>
+                                    <a href="#">身体护理</a>
+                                </div>
+                                <div class="naxbox" id="nax">
+                                    <a href="#">礼品组合</a>
+                                    <a href="#">男士护肤</a>
+                                    <a href="#">女士护肤</a>
+                                    <a href="#">美发护发</a>
+                                    <a href="#">美妆大促</a>
+                                    <a href="#">限时暖价</a>
+                                </div>
+                                <div class="naxbox" id="na"></div>
+                            </div>
+                            <div class="recomment">
+                                <h3>特别推荐</h3>
+                                <div class="recomment-nav" id="recomment-nav">
+                                    <a href="#">暖岛独家</a>
+                                    <!--美容-->
+                                    <a href="#">买手精选 </a>
+                                    <a href="#">编辑推荐 </a>
+                                    <a href="#">岛民最爱</a>
+                                    <a href="#">本月星座</a>
+                                    <a href="#">LookBook </a>
+                                </div>
+                                <div class="recomment-show" id="recomment-show">
+                                    <a href="#" title=""><img src="img/e13.jpg"></a>
+                                    <a href="#" title=""><img src="img/e14.jpg"></a>
+                                    <a href="#" title=""><img src="img/e15.jpg"></a>
+                                    <a href="#" title=""><img src="img/e16.jpg"></a>
+                                    <a href="#" title=""><img src="img/e17.jpg"></a>
+                                    <a href="#" title=""><img src="img/e18.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="one" id="chuang"><a href="#">家居创意</a>
+                    <div class="container3" id="container3">
+                        <div class="cont3">
+                            <div class="zuo3">
+                                <h3>逛分类</h3>
+                                <div class="naxbox" id="n">
+                                    <a href="#">新品</a>
+                                    <a href="#">家纺</a>
+                                    <a href="#">香氛</a>
+                                    <a href="#">厨具</a>
+                                    <a href="#">杯具</a>
+                                    <a href="#">灯具</a>
+                                </div>
+                                <div class="naxbox" id="fu">
+                                    <a href="#">家具</a>
+                                    <a href="#">书籍音乐</a>
+                                    <a href="#">文具</a>
+                                    <a href="#">宠物用品</a>
+                                    <a href="#">美食</a>
+                                    <a href="#">钟表</a>
+                                </div>
+                                <div class="naxbox" id="fu1">
+                                    <a href="#">卫浴</a>
+                                    <a href="#">雨具</a>
+                                    <a href="#">玩具娱乐</a>
+                                    <a href="#">家装软饰</a>
+                                    <a href="#">家居硬饰</a>
+                                    <a href="#">限时暖价</a>
+                                </div>
+                            </div>
+                            <div class="recomment">
+                                <h3>特别推荐</h3>
+                                <div class="recomment-nav">
+                                    <a href="#">暖岛独家 </a>
+                                    <!--家具-->
+                                    <a href="#">买手精选 </a>
+                                    <a href="#">编辑推荐 </a>
+                                    <a href="#">岛民最爱 </a>
+                                    <a href="#">本月星座</a>
+                                    <a href="#">LookBook </a>
+                                </div>
+                                <div class="recomment-show">
+                                    <a href="#" title=""><img src="img/e19.jpg"></a>
+                                    <a href="#" title=""><img src="img/e20.jpg"></a>
+                                    <a href="#" title=""><img src="img/e21.jpg"></a>
+                                    <a href="#" title=""><img src="img/e22.jpg"></a>
+                                    <a href="#" title=""><img src="img/e23.jpg"></a>
+                                    <a href="#" title=""><img src="img/e24.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="one" id="wai"><a href="#">数码户外</a>
+                    <div class="container4" id="container4">
+                        <div class="cont4">
+                            <div class="zuo4">
+                                <h3>逛分类</h3>
+                                <div class="naxbox" id="fu3">
+                                    <a href="#">新品</a>
+                                    <a href="#">手机及配件</a>
+                                    <a href="#">平板及配件</a>
+                                    <a href="#">摄影摄像</a>
+                                    <a href="#">音乐设备</a>
+                                    <a href="#">电脑周边</a>
+                                </div>
+                                <div class="naxbox" id="fu3">
+                                    <a href="#">户外</a>
+                                    <a href="#">限时暖价</a>
+                                </div>
+                            </div>
+                            <div class="recomment">
+                                <h3>特别推荐</h3>
+                                <div class="recomment-nav">
+                                    <a href="#">暖岛独家 </a>
+                                    <!--家具-->
+                                    <a href="#">买手精选 </a>
+                                    <a href="#">编辑推荐 </a>
+                                    <a href="#">岛民最爱 </a>
+                                    <a href="#">本月星座 </a>
+                                    <a href="#">LookBook </a>
+                                </div>
+                                <div class="recomment-show">
+                                    <a href="#" title=""><img src="img/e25.jpg"></a>
+                                    <a href="#" title=""><img src="img/e26.jpg"></a>
+                                    <a href="#" title=""><img src="img/e27.jpg"></a>
+                                    <a href="#" title=""><img src="img/e28.jpg"></a>
+                                    <a href="#" title=""><img src="img/e29.jpg"></a>
+                                    <a href="#" title=""><img src="img/e30.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="one" id="nuan"><a href="#" id="ll" >限时暖价</a>
+                    <div class="container5" id="container5">
+                        <div class="cont5">
+                            <div class="zuo5">
+                                <h3>逛分类</h3>
+                                <div class="naxbox" id="fu4">
+                                    <a href="#">女装服饰</a>
+                                    <a href="#">男装服饰</a>
+                                    <a href="#">美容健康</a>
+                                    <a href="#">家居创意</a>
+                                    <a href="#">数码户外</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="one" id="lv"><a href="#" >精选品牌</a></li>
+                <li class="one" id="ping"><a href="#" id="pi">订制商品</a>
+                    <div class="container6 clearfix" id="container6"  >
+                        <div class="cont6 clearfix" >
+                            <div class="zuo6" >
+                                <div class="zt"  >
+                                    <h3>透明硬壳</h3>
+                                </div>
+                                <div class="naxbox" id="naxbox">
+                                    <div class="cp-modem">
+                                        <a href="#">iphone 6s/6 透明硬壳</a>
+                                    </div>
+                                    <div class="cp-modem" >
+                                        <a href="#">iphone 6s plus/6 plus 透明硬壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">iphone 5s/5 透明硬壳</a>
+                                    </div>
+                                    <div class="cp-modem" >
+                                        <a href="#">Samsung Note 5 透明硬壳</a>
+                                    </div>
+                                    <div class="cp-modem" >
+                                        <a href="#">华为 Mate7 透明硬壳</a>
+                                    </div>
+                                    <div class="cp-modem" >
+                                        <a href="#">小米 4 透明硬壳</a>
+                                    </div>
+                                </div>
+                                <div class="zt" >
+                                    <h3 >透明软壳</h3>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem" >
+                                        <a href="#">iphone 6s/6 透明软壳</a>
+                                    </div>
+                                    <div class="cp-modem" >
+                                        <a href="#">iphone 6s plus/6 plus 透明软壳</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zuo6" >
+                                <div class="zt">
+                                    <h3 >白底光面硬壳</h3>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem">
+                                        <a href="#"> iphone 6 手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">iPhone 6 Plus 手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">iPhone 5s/5 手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">Samsung S6 手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">华为 P7 手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">华为 荣耀 6 手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">红米 Note 手机壳</a>
+                                    </div>
+                                </div>
+                                <div class="zt" >
+                                    <h3 >白底磨砂硬壳</h3>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem" >
+                                        <a href="#">Phone 6 磨砂手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">iPhone 6 plus 磨砂手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">iPhone 5s/5 磨砂手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">Samsung S6 磨砂手机壳</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">华为荣耀 6 磨砂手机壳</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zuo6" >
+                                <div class="zt">
+                                    <h3 >无框画</h3>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem">
+                                        <a href="#">无框画（15 x 15 厘米）</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">无框画（30 x 30 厘米）</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">无框画（45 x 30 厘米）</a>
+                                    </div>
+                                </div>
+                                <div class="zt">
+                                    <h3 >贴纸</h3>
+                                </div>
+                                <div class="naxbox">
+                                    <div class="cp-modem" >
+                                        <a href="#">正方形贴纸</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">长方形贴纸</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">圆形贴纸</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">星形贴纸</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">心形贴纸</a>
+                                    </div>
+                                </div>
+                                <div class="zt">
+                                    <h3 >水包裝</h3>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem">
+                                        <a href="#">瓶装饮用水(350ml/瓶)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">瓶装饮用水(350ml*6 瓶)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zuo6">
+                                <div class="zt">
+                                    <h3 >U盘</h3>
+                                </div>
+                                <div class="naxbox">
+                                    <div class="cp-modem">
+                                        <a href="#">U盘 16G（白色）</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">U盘 16G（黑色）</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">U盘 2G（白色）</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">U盘 2G（黑色）</a>
+                                    </div>
+                                    <div class="zt">
+                                        <h3 >充电宝</h3>
+                                    </div>
+                                    <div class="naxbox" >
+                                        <div class="cp-modem" >
+                                            <a href="#">充电宝 2500 mAh（白色）</a>
+                                        </div>
+                                        <div class="cp-modem">
+                                            <a href="#">充电宝 2500 mAh（黑色）</a>
+                                        </div>
+                                        <div class="cp-modem">
+                                            <a href="#">充电宝 5000 mAh（白色）</a>
+                                        </div>
+                                        <div class="cp-modem">
+                                            <a href="#">充电宝 5000 mAh（黑色）</a>
+                                        </div>
+                                    </div>
+                                    <div class="zt">
+                                        <h3 >马克杯</h3>
+                                    </div>
+                                    <div class="naxbox" >
+                                        <div class="cp-modem" >
+                                            <a href="#">马克杯</a>
+                                        </div>
+                                    </div>
+                                    <div class="zt">
+                                        <h3 >布艺书皮</h3>
+                                    </div>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem">
+                                        <a href="#">布艺书皮(附 A5 空白内页)</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zuo6" >
+                                <div class="zt">
+                                    <h3 >T恤</h3>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem">
+                                        <a href="#">白色短袖T恤(S号)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">白色短袖T恤(M号)</a>
+                                    </div>
+                                    <div class="cp-model">
+                                        <a href="#">白色短袖T恤(L号)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">黑色短袖T恤(S号)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">黑色短袖T恤(M号)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">黑色短袖T恤(L号)</a>
+                                    </div>
+                                </div>
+                                <div class="zt">
+                                    <h3 >抱枕</h3>
+                                </div>
+                                <div class="naxbox" >
+                                    <div class="cp-modem" >
+                                        <a href="#">双面蜜桃绒抱枕(45 x 45 cm)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">双面软毛绒抱枕(45 x 45 cm)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">双面蜜桃绒抱枕(35 x 35 cm)</a>
+                                    </div>
+                                    <div class="cp-modem">
+                                        <a href="#">双面软毛绒抱枕(35 x 35 cm)</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--</div>-->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="sys" id="sys">
+                <a href="#"><li  class="people"></li></a>
+                <li class="gift"><a href="#">邀好友立送20元</a></li>
+                <li class="sr">
+                    <a href="#"><li class="mobile" id="mobile"></li></a>
+                <li class="cl" id="cl"><a href="#" >手机版</a></li>
+                <!--手机二维码-->
+                <div class="three" id="three">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                </li>
+                <a href="#"><li class="icon" id="icon">
+                    <!--微信的二维码-->
+                    <div class="asid" id="asid"></div>
+                </li></a>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!--买手介绍-->
+<div class="w98 clearfix">
+    <img class="sale" src="img/image2/58748116952b7.jpg" alt="sale">
+    <div class="show clearfix">
+        <h2 class="sale-title">送给敢于冒险的boys＆girls</h2>
+        <h4 class="sale-subtitle">塔卡沙tyakasha原创服饰</h4>
+        <p class="sale-description">TYAKASHA塔卡沙是来自上海的独立新锐服装设计品牌。 TYAKASHA 风格天马行空，色彩，玩味，有趣。可爱纯真的图案让人不禁莞尔，搞怪鬼马的配色却又相当易穿的特色让人惊叹。我们在他的设计里时常会看到这一份难得的幽默感和充满玩味的童真，一种简单生活，快乐穿衣的新主义穿过TYAKASHA你才算年轻过</p>
+        <div class="manager">
+            <img class="avatar" src="img/image2/58730e1a2ba77.jpg" alt="avater">
+            <div class="sale-manager_name">Aili（暖岛网买手）</div>
+            <div class="mana">
+                <em>字典里没有塔卡沙TYAKASHA.它可以是海盗的代名词。塔卡沙也代表勇敢，信念，追逐理想，敢于挑战冒险，创造，团结，年轻的代名词，或者简单的享受生活，轻松简单的快乐。</em>
+            </div>
+        </div>
+    </div>
+</div>
+<!--商品-->
+<div class="pad">
+    <div class="row ">
+        <div class="leaf">
+            <a class="thumbnail" href="/product/172890" target="_blank">
+                <img width="232" height="232" id="weibosyncimg172890" saleid="19257" alt="TYAKASHA塔卡沙手帐系列女款蓝色卡其羊羔绒短外套NSF54" src="img/image2/5865d2cde5cdb-218.jpg">
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/172890" target="_blank" title="TYAKASHA塔卡沙手帐系列女款蓝色卡其羊羔绒短外套NSF54">TYAKASHA塔卡沙手帐系列女款蓝色卡其羊羔绒短外套NSF54</a></li>
+                <li class="price"><span class="price-new ">￥379</span><i class="price-diff"></i><del class="price-old">￥758</del></li>
+                <li class="like like63" id="like172890" title="喜欢" pdid="172890" pdname="TYAKASHA塔卡沙手帐系列女款蓝色卡其羊羔绒短外套NSF54" pdstatus="1" likeloading="0">0</li>
+            </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/172549" target="_blank">
+                <img width="232" height="232" id="weibosyncimg172848" saleid="19257" alt="TYAKASHA塔卡沙手帐系列女粉色连帽短款棉服NSF72" src="img/image2/585feb6adbe49-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/172848" target="_blank" title="TYAKASHA塔卡沙手帐系列女粉色连帽短款棉服NSF72">TYAKASHA塔卡沙手帐系列女粉色连帽短款棉服NSF72</a></li>
+                <li class="price"><span class="price-new ">￥349</span><i class="price-diff"></i><del class="price-old">￥698</del></li>
+                <li class="like like63" id="like172848" title="喜欢" pdid="172848" pdname="TYAKASHA塔卡沙手帐系列女粉色连帽短款棉服NSF72" pdstatus="1" likeloading="0">0</li>
+            </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/172549" target="_blank">
+                <img width="232" height="232" id="weibosyncimg172549" saleid="19257" alt="TYAKASHA塔卡沙手帐系列蓝绿色灯芯绒短款夹克外套NSF49" src="img/image2/5844317414438-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/172549" target="_blank" title="TYAKASHA塔卡沙手帐系列蓝绿色灯芯绒短款夹克外套NSF49">TYAKASHA塔卡沙手帐系列蓝绿色灯芯绒短款夹克外套NSF49</a></li>
+                <li class="price"><span class="price-new ">￥364</span><i class="price-diff"></i><del class="price-old">￥728</del></li>
+                <li class="like like63" id="like172549" title="喜欢" pdid="172549" pdname="TYAKASHA塔卡沙手帐系列蓝绿色灯芯绒短款夹克外套NSF49" pdstatus="1" likeloading="0">1</li>
+            </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/172285" target="_blank">
+                <img width="232" height="232" id="weibosyncimg172285" saleid="19257" alt="TYAKASHA塔卡沙手帐系列双面拼接羊羔绒双面穿马甲NSF60" src="img/image2/582b2e1320376-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/172285" target="_blank" title="TYAKASHA塔卡沙手帐系列双面拼接羊羔绒双面穿马甲NSF60">TYAKASHA塔卡沙手帐系列双面拼接羊羔绒双面穿马甲NSF60</a></li>
+                <li class="price"><span class="price-new ">￥244</span><i class="price-diff"></i><del class="price-old">￥488</del></li>
+                <li class="like like63" id="like172285" title="喜欢" pdid="172285" pdname="TYAKASHA塔卡沙手帐系列双面拼接羊羔绒双面穿马甲NSF60" pdstatus="1" likeloading="0">2</li>
+        </ul>
+        </div>
+        <div class="leaf"><a class="thumbnail" href="/product/172091" target="_blank">
+            <img width="232" height="232" id="weibosyncimg172091" saleid="19257" alt="TYAKASHA塔卡沙功夫系列印花本白色基本款毛圈帽衫男女款AWN16" src="img/image2/581368914cb6a-218.jpg"><!-- 在此处添加雪花角标 -->
+        </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/172091" target="_blank" title="TYAKASHA塔卡沙功夫系列印花本白色基本款毛圈帽衫男女款AWN16">TYAKASHA塔卡沙功夫系列印花本白色基本款毛圈帽衫男女款AWN16</a></li>
+                <li class="price"><span class="price-new ">￥164</span><i class="price-diff"></i><del class="price-old">￥328</del></li>
+                <li class="like like63" id="like172091" title="喜欢" pdid="172091" pdname="TYAKASHA塔卡沙功夫系列印花本白色基本款毛圈帽衫男女款AWN16" pdstatus="1" likeloading="0">0</li>
+        </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/172089" target="_blank">
+                <img width="232" height="232" id="weibosyncimg172089" saleid="19257" alt="TYAKASHA塔卡沙功夫系列印花白色棉布衬衫男女款AWN27" src="img/image2/5813661c41479-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/172089" target="_blank" title="TYAKASHA塔卡沙功夫系列印花白色棉布衬衫男女款AWN27">TYAKASHA塔卡沙功夫系列印花白色棉布衬衫男女款AWN27</a></li>
+                <li class="price"><span class="price-new ">￥179</span><i class="price-diff"></i><del class="price-old">￥358</del></li>
+                <li class="like like63" id="like172089" title="喜欢" pdid="172089" pdname="TYAKASHA塔卡沙功夫系列印花白色棉布衬衫男女款AWN27" pdstatus="1" likeloading="0">1</li>
+            </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/172086" target="_blank">
+                <img width="232" height="232" id="weibosyncimg172086" saleid="19257" alt="TYAKASHA塔卡沙功夫系列黑武士感七分裙裤AWF32" src="img/image2/5813615fc4694-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/172086" target="_blank" title="TYAKASHA塔卡沙功夫系列黑武士感七分裙裤AWF32">TYAKASHA塔卡沙功夫系列黑武士感七分裙裤AWF32</a></li>
+                <li class="price"><span class="price-new ">￥144</span><i class="price-diff"></i><del class="price-old">￥288</del></li>
+                <li class="like like63" id="like172086" title="喜欢" pdid="172086" pdname="TYAKASHA塔卡沙功夫系列黑武士感七分裙裤AWF32" pdstatus="1" likeloading="0">1</li>
+            </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/170454" target="_blank">
+                <img width="232" height="232" id="weibosyncimg170454" saleid="19257" alt="TYAKASHA塔卡沙百搭蓝色牛仔西装领风衣JYF25" src="img/image2/57a71971cc855-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/170454" target="_blank" title="TYAKASHA塔卡沙百搭蓝色牛仔西装领风衣JYF25">TYAKASHA塔卡沙百搭蓝色牛仔西装领风衣JYF25</a></li>
+                <li class="price"><span class="price-new ">￥234</span><i class="price-diff"></i><del class="price-old">￥468</del></li>
+                <li class="like like63" id="like170454" title="喜欢" pdid="170454" pdname="TYAKASHA塔卡沙百搭蓝色牛仔西装领风衣JYF25" pdstatus="1" likeloading="0">0</li>
+            </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/170269" target="_blank">
+                <img width="232" height="232" id="weibosyncimg170269" saleid="19257" alt="TYAKASHA塔卡沙绿色细格子拼纱刺绣娃娃裙JYF12" src="img/image2/579ca5a67d77d-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/170269" target="_blank" title="TYAKASHA塔卡沙绿色细格子拼纱刺绣娃娃裙JYF12">TYAKASHA塔卡沙绿色细格子拼纱刺绣娃娃裙JYF12</a></li>
+                <li class="price"><span class="price-new ">￥214</span><i class="price-diff"></i><del class="price-old">￥428</del></li>
+                <li class="like like63" id="like170269" title="喜欢" pdid="170269"pdname="TYAKASHA塔卡沙绿色细格子拼纱刺绣娃娃裙JYF12" pdstatus="1" likeloading="0">3</li>
+            </ul>
+        </div>
+        <div class="leaf">
+            <a class="thumbnail" href="/product/170138" target="_blank">
+                <img width="232" height="232" id="weibosyncimg170138" saleid="19257" alt="TYAKASHA 塔卡沙 深蓝培根圆领套头毛衣" src="img/image2/5794777279c37-218.jpg"><!-- 在此处添加雪花角标 -->
+            </a>
+            <ul class="info clearfix">
+                <li class="title"><a href="/product/170138" target="_blank" title="TYAKASHA 塔卡沙 深蓝培根圆领套头毛衣">TYAKASHA 塔卡沙 深蓝培根圆领套头毛衣</a></li>
+                <li class="price"><span class="price-new ">￥249</span><i class="price-diff"></i><del class="price-old">￥498</del></li>
+                <li class="like like63" id="like170138" title="喜欢" pdid="170138" pdname="TYAKASHA 塔卡沙 深蓝培根圆领套头毛衣" pdstatus="1" likeloading="0">1</li>
+            </ul>
+        </div>
+        <!--更多商品-->
+        <div class="w9">
+            <div class="alla">
+                <h2>更多好商品</h2>
+            </div>
+        </div>
+        <!--尾部-->
+        <div class="fo">
+            <div class="footera" id="footera">
+                <div class="pr" id="pr">
+                    <div class="nx" id="nv">
+                        <ul>
+                            <li>逛逛暖岛</li>
+                            <li><a href="#">登录注册</a></li>
+                            <li><a href="#">下单及支付</a></li>
+                            <li><a href="#">使用代金券</a></li>
+                            <li><a href="#">找回密码</a></li>
+                        </ul>
+                        <ul>
+                            <li>订单详情</li>
+                            <li><a href="#">查询订单</a></li>
+                            <li><a href="#">追踪物流</a></li>
+                            <li><a href="#">配送费用</a></li>
+                            <li><a href="#">配送时间</a></li>
+                        </ul>
+                        <ul>
+                            <li>退货换货</li>
+                            <li><a href="#">退换规则</a></li>
+                            <li><a href="#">退换方式</a></li>
+                            <li><a href="#">退款时间</a></li>
+                            <li><a href="#">运费报销</a></li>
+                        </ul>
+                        <ul>
+                            <li>关于暖岛</li>
+                            <li><a href="/public/faq?q=6#q6-1">暖岛故事</a></li>
+                            <li><a href="/public/faq?q=6#q6-2">合作机会</a></li>
+                            <li><a href="/public/faq?q=6#q6-3">加入暖岛</a></li>
+                            <li><a href="/public/faq?q=6#q6-5">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="sh">
+                        <div class="my">
+                            <div class="title">订阅电子报</div>
+                            <div class="email">
+                                <input class="input" type="email" name="news-email" id="news-email" placeholder="请输入邮箱地址">
+                                <a herf="javascript:;" class="icon" id="newsbook-btn">
+                                    <i>订阅</i>
+                                </a>
+                                <div id="booktips" class="error "></div>
+                                <div class="sloading" id="bookloading">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sns">
+                            <ul>
+                                <li><a href="#" target="_blank" title="新浪微博" class="icon icona">weibo</a></li>
+                                <li><a href="#" class="icon icong" id="icong" title="暖岛微信">暖岛微信<span class="qrweixin" id="qrweixin"><i></i></span></a></li>
+                                <li><a href="#" target="_blank" title="1626" class="icon iconh">1626</a></li>
+                                <li><a href="#" target="_blank" title="美丽说" class="icon iconb">美丽说</a></li>
+                                <li><a href="#" target="_blank" title="豆瓣东西" class="icon iconf">豆瓣小站</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--<a href="#" class="scrollto " title="回到顶部"></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="fl">
+            <div class="ner clearfix">
+                <div class="nav clearfix ">
+                    <ul>
+                        <li><a href="#" target="_blank">使用条款</a></li>
+                        <LI>|</LI>
+                        <li><a href="#" target="_blank">暖岛APP</a></li>
+                        <LI>|</LI>
+                        <li><a href="#" target="_blank">友情链接</a></li>
+                    </ul>
+                    <div class="copyright">
+                        <span class="hidesm">Nuandao.com 北京暖岛网络信息科技有限公司&nbsp;</span>
+                        ©&nbsp;2011-2016&nbsp;All&nbsp;rights&nbsp;reserved&nbsp;<a href="http://www.miibeian.gov.cn">京ICP备13034710号-1</a>
+                        &nbsp;|&nbsp;京公网安备11010102001819号&nbsp;|&nbsp;执照号：91110108584425669B&nbsp;|&nbsp;食品经营许可证：
+                    </div>
+                </div>
+                <a class="ddn" href="#" title="安全交易认证" target="_blank"></a>
+                <div class="wok">                周一至周五9:30-18:00<br>                客服热线：010-65132273 </div>
+            </div>
+        </div>
+        <div style="position: fixed; z-index: 279; bottom: 5px; right: 5px;">
+            <a href="javascript:;" onclick="easemobim.bind({tenantId: 27912})"><img id="easemob-icon" src="img/ea.png"></a>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>

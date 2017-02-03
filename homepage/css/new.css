@@ -1,0 +1,388 @@
+
+.w98{
+   margin-right: auto;
+    margin-left: auto;
+    width: 988px;
+    padding-top: 50px;
+
+}
+
+.sale{
+    float: left;
+    width: 360px;
+    height: 360px;
+
+
+}
+.w10 .alla h2{
+    width: 200px;
+    display: block;
+
+}
+
+.show{
+    margin-left: 400px;
+    margin-bottom: 80px;
+
+}
+.sale-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size:20px;
+}
+.sale-subtitle {
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.sale-description, .mana {
+    color: #848484;
+    line-height: 1.6em;
+    font-size: 15px;
+}
+.manager{
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed #dfdfdf;
+}
+.avatar{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.sale-manager_name {
+    color: #515050;
+    margin-bottom: 10px;
+}
+/*图片*/
+.pad{ /*最外的大盒子*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 988px;
+}
+/*.col{
+    width: ;
+}*/
+.row{
+ margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+}
+.leaf {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 252px;
+    float: left;
+    min-height: 1px;
+    margin-bottom: 40px;
+   position: relative;
+}
+.leaf .thumbnail {
+    display: block;
+    width: 232px;
+    height: 232px;
+    position: relative;
+}
+/*a {
+    color: #428bca;
+    text-decoration: none;
+    outline: none;
+}*/
+leaf .info {
+    position: relative;
+    font-size: 12px;
+    margin-top: 18px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.leaf .info .title {
+    margin-bottom: 8px;
+    width: 100%;
+}
+.leaf .info>li {
+    float: left;
+}
+.leaf .info .title>a {
+    color: #515050;
+    font-size: 14px;
+    display: block;
+    width: 232px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.leaf .info .price {
+    line-height: 16px;
+}
+.leaf .info .price-new {
+    font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+    color: #3ec0a3;
+    font-size: 16px;
+    font-size: 12px;
+}
+.leaf .info .price-diff {
+    margin-left: 10px;
+    margin-right: 8px;
+    width: 0;
+    height: 14px;
+    border-left: 2px solid #dfdfdf;
+    display: inline-block;
+}
+.leaf .info .price-old {
+    font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+    color: #acacac;
+    font-size: 16px;
+    font-size: 12px;
+}
+.leaf .info .like {
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    width: 35px;
+    font-family: "Gothem Medium","Helvetica Neue",Helvetica,"Microsoft YaHei",Arial,sans-serif;
+    color: #848484;
+    font-size: 16px;
+    font-size: 15px;
+    padding-right: 45px;
+    text-align: right;
+    cursor: pointer;
+    background: url(../img/nu.png) no-repeat 40px -129px;
+}
+/*更多商品*/
+.w8{
+    /*margin: 0 auto;
+    width: 988px;*/
+   /* position: relative;*/
+    width: 100%;
+    position: absolute;
+    top:4060px;
+    left: 120px;
+}
+
+.w8 .alla{
+    /*margin-top: 40px;*/
+   /* position: absolute;
+    top:3980px;*/
+    width: 1240px;
+    margin: 0 auto;
+}
+.w10 .alla h2{
+    width: 200px;
+    display: block;
+
+}
+/*.foo{
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: relative;
+}*/
+/*.foo {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    top:4090px;
+
+}*/
+.foof{
+    background-color: rgb(48, 48, 48);
+    color: #dfdfdf;
+    padding-top: 46px;
+    padding-bottom: 28px;
+    width: 100%;
+    margin-top: 3710px;
+
+}
+.prf{
+    background-color:rgb(48, 48, 48);
+    margin-right: auto;
+    margin-left: auto;
+    width: 1240px;
+    height: 150px;
+}
+.nx{
+    float: left;
+   /* background-color: rgb(48, 48, 48);
+    color: rgb(223, 223, 223);
+    margin-left: 30px;*/
+}
+.foof .prf .nx>ul {
+    float: left;
+    width: 167px;
+
+}
+
+.foof .prf .nx>ul>li {
+    padding-top:9px ;
+    background-color: rgb(48, 48, 48);
+}
+.foof .prf .nx>ul>li a{color: #666666;}
+.foof .prf .nx>ul>li a:hover{
+    color: #fff;
+}
+.sho{
+    float: right;
+    margin-right:30px;
+    background-color: rgb(48, 48, 48);
+}
+.sho .my{
+    margin-bottom: 20px;
+}
+.sho .my .title{
+    padding-bottom: 21px;
+}
+.sho .my .email{
+    position: relative;
+    width: 320px;
+    height: 54px;
+    background-color: #4b4b4b;
+}
+.sho .my .email>input{
+    display: inline-block;
+    width: 248px;
+    height: 54px;
+    padding: 0 0 0 15px;
+    border: none;
+    background-color: #434343;
+    color: #ccc;
+    font-size: 14px;
+}
+.sho .my .email>a{
+    display: inline-block;
+    width: 248px;
+    /*height: 54px;*/
+    padding: 0 0 0 15px;
+    border: none;
+    background-color: #434343;
+    color: #ccc;
+    font-size: 14px;
+}
+.sho .my .email>a>i{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    width: 32px;
+    height: 22px;
+    background: url(../img/nu.png) no-repeat -200px 0;
+}
+.sho .my .email .error{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 320px;
+    display: none;
+    border: 3px solid #d9534f;
+    color: #d9534f;
+    background-color: #fff;
+    text-align: center;
+    height: 54px;
+    line-height: 48px;
+}
+.sho .my .email .sloading{
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+.sho .my .email .sloading>div{
+    height: 5px;
+    width: 5px;
+}
+
+.sho .sns ul li{
+    float: left;
+    margin-left: 24px;
+    margin-top: -20px;
+    text-align: center;
+}
+.sho .sns ul li a:hover{
+    background-color:#d3d3d3;
+}
+.sho .sns li .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    display: inline-block;
+}
+.sho .sns .icona{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: 0 0;
+}
+.sho .sns .icong{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: 0 -167px;
+}
+.sho .sns .icong .qrweixin{
+    display: none;
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    bottom: 59px;
+    left: 950px;
+    background: url(../img/QR.png) center center no-repeat;
+    background-color: #d4d4d4;
+}
+.sho .sns .icong .qrweixin i{
+    position: absolute;
+    bottom: -24px;
+    left: 40%;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    width: 0;
+    border: 12px solid transparent;
+    border-top-color: #d4d4d4;
+}
+.sho .sns .iconh{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -46px -167px;
+}
+.sho .sns .iconb{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -40px 0;
+}
+.sho .sns .iconf{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -160px 0;
+}
+
+.foob{
+
+    width: 100%;
+    background-color: #fff;
+    /*height: 170px;*/
+    position: absolute;
+    top:4455px;
+}
+.foob .ner{
+    width: 1240px;
+    margin: 0 auto;
+}
+.ddn{
+    float: left;
+    display: block;
+    width: 96px;
+    height: 42px;
+   /* margin-left:1050px;
+    margin-top:-40px;*/
+    margin-left: 1060px;
+    margin-top:-25px;
+    background:  url(../img/ul.gif) no-repeat 0 0;
+}
+.wok{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+

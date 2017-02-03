@@ -1,0 +1,230 @@
+
+
+/*更多商品*/
+.geng{
+    width: 100%;
+    position: absolute;
+    top:7890px;
+    left: 120px;
+}
+
+.geng .alla{
+    width: 1240px;
+    margin: 0 auto;
+}
+.geng .alla h2{
+    width: 200px;
+    display: block;
+
+}
+
+.bb{
+    /*width: 1240px;
+    margin: 0 auto;
+    background-color: rgb(48, 48, 48);*/
+    background-color: rgb(48, 48, 48);
+    color: #dfdfdf;
+    padding-top: 46px;
+    padding-bottom: 28px;
+    width: 100%;
+    margin-top: 7450px;
+
+
+}
+.prb{
+    background-color:rgb(48, 48, 48);
+    margin-right: auto;
+    margin-left: auto;
+    width: 1240px;
+    height: 150px;
+}
+.prb .nx{
+    float: left;
+    /* width: 800px;
+     background-color: rgb(48, 48, 48);
+     color: rgb(223, 223, 223);*/
+    /*margin-left: 30px;*/
+}
+.bb .prb .nx>ul {
+    float: left;
+    width: 167px;
+    background-color: rgb(48, 48, 48);
+
+
+}
+
+.bb .prb .nx>ul>li {
+    /* float: left;*/
+
+    padding-bottom: 18px;
+    /*margin-left: 30px;*/
+}
+.bb .prb .nx>ul>li a{color: #666666;}
+.bb .prb .nx>ul>li a:hover{
+    color: #fff;
+}
+.shoa{
+    float: right;
+    /* margin-right:30px;*/
+    background-color:rgb(48, 48, 48);
+}
+.shoa .my{
+    margin-bottom: 20px;
+}
+.shoa .my .title{
+    padding-bottom: 21px;
+}
+.shoa .my .email{
+    position: relative;
+    width: 320px;
+    height: 54px;
+    background-color: #4b4b4b;
+}
+.shoa .my .email>input{
+    display: inline-block;
+    width: 248px;
+    height: 54px;
+    padding: 0 0 0 15px;
+    border: none;
+    background-color: #434343;
+    color: #ccc;
+    font-size: 14px;
+}
+.shoa .my .email>a{
+    display: inline-block;
+    width: 248px;
+    padding: 0 0 0 15px;
+    border: none;
+    background-color: #434343;
+    color: #ccc;
+    font-size: 14px;
+}
+.shoa .my .email>a>i{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    width: 32px;
+    height: 22px;
+    background: url(../img/nu.png) no-repeat -200px 0;
+}
+.shoa .my .email .error{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 320px;
+    display: none;
+    border: 3px solid #d9534f;
+    color: #d9534f;
+    background-color: #fff;
+    text-align: center;
+    height: 54px;
+    line-height: 48px;
+}
+.shoa .my .email .sloading{
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+.shoa .my .email .sloading>div{
+    height: 5px;
+    width: 5px;
+}
+
+.shoa .sns ul li{
+    float: left;
+    margin-left: 24px;
+    margin-top: -20px;
+    text-align: center;
+}
+.shoa .sns ul li a:hover{
+    background-color:#d3d3d3;
+}
+.shoa .sns li .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    display: inline-block;
+}
+.shoa .sns .icona{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: 0 0;
+}
+.shoa .sns .icong{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: 0 -167px;
+}
+.shoa .sns .icong .qrweixin{
+    display: none;
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    bottom: 59px;
+    left: 950px;
+    background: url(../img/QR.png) center center no-repeat;
+    background-color: #d4d4d4;
+}
+.shoa .sns .icong .qrweixin i{
+    position: absolute;
+    bottom: -24px;
+    left: 40%;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    width: 0;
+    border: 12px solid transparent;
+    border-top-color: #d4d4d4;
+}
+.shoa .sns .iconh{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -46px -167px;
+}
+.shoa .sns .iconb{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -40px 0;
+}
+.shoa .sns .iconf{
+    background: url(../img/nu.png) no-repeat 0 0;
+    background-position: -160px 0;
+}
+.fa{
+
+    width: 100%;
+    background-color: #fff;
+
+    /* position: absolute;*/
+  /*  margin-top: 3750px;*/
+    left: 0;
+}
+.fa .ner{
+    width: 1240px;
+    margin: 0 auto;
+}
+.ddnn{
+    float: left;
+    display: block;
+    width: 96px;
+    height: 42px;
+    /* margin-left:1050px;
+     margin-top:-40px;*/
+    margin-left: 1060px;
+    margin-top:-25px;
+    background:  url(../img/ul.gif) no-repeat 0 0;
+}
+.work{
+    float: right;
+    width:150px;
+    height: 42px;
+    margin-right:20px;
+    margin-top: 20px;
+}
+

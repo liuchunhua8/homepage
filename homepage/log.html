@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录与注册</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link  rel="stylesheet" href="css/log.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/log.js"></script>
+</head>
+<body>
+<div id="top"></div>
+<div class="black" id="black">
+    <div class="topBar clearfix" id="topBar">
+        <ul id="left">
+            <li class="w"><a href="#"><!--<img src="img/k3.jpg">--></a></li>
+        </ul>
+    </div>
+</div>
+<div class="default-bkg m-hidden"></div>
+<div class="default-bkg-filter m-hidden"></div>
+<div class="video-bg m-hidden">
+    <video autoplay="autoplay" muted="muted" poster="img/default-bkg.jpg" loop="loop" style="width: 1366px;">
+        <source src="img/nuandao.m4v"  type="video/mp4">
+    </video>
+</div>
+<!--登录-->
+<div class="overlay" id="overlay">
+    <div class="dialog">
+        <div class="login_aside">
+            <div class="login_title">中国最具创造力的设计电商</div>
+            <div class="login_subtitle"><span>让最好的一切发生</span></div>
+            <div class="login_welcome">注册就送<strong><span class="J_nd-welcome">10</span>元</strong>现金券</div>
+            <img src="img/login-cover-0808.gif" alt="welcome to nuandao">
+            <div class="login_promise">每日全球设计新品&nbsp;2折起包邮+赠券特卖</div>
+        </div>
+        <div class="login-main">
+            <div class="login-main_title" id="J_login-main_title">
+                <a class="checked" id="checked" href="#" data-btntext="登录暖岛">登录</a>
+                &nbsp;|&nbsp;<a id="tt" href="#" data-btntext="注册暖岛">注册</a>
+                <span class="login-main_saleInfo" id="J_login-main_saleInfo"></span>
+            </div>
+            <form method="post" action="/public/lazyentrance" id="loginform" class="login-account" autocomplete="off">
+            <input class="login-account_field login-account_email" type="email" name="email" id="uemail" placeholder="邮件地址" autocomplete="off">
+            <input class="login-account_field login-account_passwd" type="password" name="password" id="upassword" placeholder="暖岛密码" autocomplete="off">
+            <div class="login-account_getpasswd">
+                <a href="/public/forgetpwd">忘记密码</a>
+            </div>
+            <a href="#" class="btn login-account_go" id="tologin-btn">登录暖岛</a>
+            <div class="login-account_error" id="text-error1"></div>
+            <input type="hidden" name="remember" id="remember" value="1" title="下次自动登录">
+            <input type="hidden" name="uagreeterms" id="uagreeterms" value="1" title="同意暖岛服务条款">
+            </form>
+            <div class="login-other">
+                <div class="login-other_title">其他登岛方式：</div>
+                <a href="javascript:;" class="login-other_wb loginSNS" data-sns="weibo_url" data-url="https://api.weibo.com/oauth2/authorize?client_id=1596506299&amp;redirect_uri=http%3A%2F%2Fwww.nuandao.com%2Freceive%2Fweibo&amp;response_type=code&amp;state=http%3A%2F%2Fwww.nuandao.com%2Fpublic%2Flogin">微博登岛</a>
+                <div class="login-another_title">
+                    <a id="J_loginOtherSNS" href="#">更多&nbsp;▼</a>
+                </div>
+                <div class="login-another_main" id="J_loginOtherSNSMain">
+                    <a href="javascript:;" class="login-another_qq loginSNS" data-sns="qqh_url" data-url="#">QQ登岛</a>
+                    <a href="javascript:;" class="login-another_rr loginSNS" data-sns="renren_url" data-url="#">人人登岛</a>
+                </div>
+            </div>
+            <div class="login_declare">
+                注册登录暖岛后，您已同意
+                <a href="/public/tc">用户使用条款</a>
+            </div>
+        </div>
+       <!-- <a id="overlay-quit" class="login-close" href="javascript:;">
+            <b>点击关闭</b>
+        </a>-->
+        <a href="#" id="J_shao2-helper" class="shao2-helper shao2-helper--open">app二维码</a>
+        <ul class="container-shao2" id="sha" >
+            <li><a href="#"></a> <img src="img/shao2-iphone.png" alt="iphone客户端下载"></li>
+            <li><a href="#"></a><img src="img/shao2-android.png" alt="android客户端下载"></li>
+            <li><a href="#"></a><img src="img/shao2-ipad.png" alt="ipad客户端下载"></li>
+        </ul>
+    </div>
+</div>
+<!--尾部-->
+<div class="footerb">
+    <div class="ner clearfix">
+        <div class="nav ">
+            <ul>
+                <li><a href="#" target="_blank">使用条款</a></li>
+                <LI>|</LI>
+                <li><a href="#" target="_blank">暖岛APP</a></li>
+                <LI>|</LI>
+                <li><a href="#" target="_blank">友情链接</a></li>
+            </ul>
+            </br>
+            <div class="copyright clearfix">
+                <span class="hide-sm">Nuandao.com 北京暖岛网络信息科技有限公司&nbsp;</span>
+                ©&nbsp;2011-2016&nbsp;All&nbsp;rights&nbsp;reserved&nbsp;<a href="http://www.miibeian.gov.cn">京ICP备13034710号-1</a>
+                &nbsp;|&nbsp;京公网安备11010102001819号&nbsp;|&nbsp;营业执照编号：102489641
+            </div>
+        </div>
+        <a class="icon-315" href="http://www.315online.com.cn/member/315140028.html" title="安全交易认证" target="_blank"></a>
+        <div class="work">            周一至周五9:30-18:00
+        </div>
+    </div>
+</div>
+</body>
+</html>

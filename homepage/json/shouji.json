@@ -1,0 +1,309 @@
+{
+		/*手机商品*/
+		"shouji":{
+			"class":"cont6 ",
+			"k1":{
+				"class":"zuo6 ",
+				"l1":{
+					"class":"zt",
+					"nv1":{
+						"zi1":{
+							"html":"iphone 6s/6 透明硬壳",
+							"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+						},
+						"zi2":{
+								"html":"iphone 6s plus/6 plus 透明硬壳",
+								"href":"http://www.nuandao.com/shop/6"
+						},
+						"zi3":{
+								"html":"iphone 5s/5 透明硬壳",
+								"href":"http://www.nuandao.com/shop/7"
+						},
+						"zi4":{
+							"html":"Samsung Note 5 透明硬壳",
+							"href":"http://wwww.nuandao.com/shop/8"
+						},
+						"zi5":{
+							"html":"华为 Mate7 透明硬壳",
+							"href":"http://www.nundao.com/shop/9"
+						},
+						"zi6":{
+							"html":"小米 4 透明硬壳",
+							"href":"http://www.nuandao.com/shop/10"
+						}
+					}
+				},
+				"l2":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"iphone 6s/6 透明软壳",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"iphone 6s plus/6 plus 透明软壳",
+							"href":"http://www.nuandao.com/shop/6"
+						}
+					}
+				}
+				
+			},
+			"k2":{
+				"class":"zuo6 ",
+				"l1":{
+					"class":"zt",
+					"nv1":{
+					"class":"naxbox",
+					"zi1":{
+						"html":"iphone 6 手机壳",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"iPhone 6 Plus 手机壳",
+							"href":"http://www.nuandao.com/shop/6"
+					},
+					"zi3":{
+							"html":"iPhone 5s/5 手机壳",
+							"href":"http://www.nuandao.com/shop/7"
+					},
+					"zi4":{
+						"html":"Samsung S6 手机壳",
+						"href":"http://wwww.nuandao.com/shop/8"
+					},
+					"zi5":{
+						"html":"华为 P7 手机壳",
+						"href":"http://www.nundao.com/shop/9"
+					},
+					"zi6":{
+						"html":"华为 荣耀 6 手机壳",
+						"href":"http://www.nuandao.com/shop/10"
+						},
+						"zi7":{
+							"html":"红米 Note 手机壳",
+							"href":"http://www.nuandao.com/shop/10"
+						}
+					}
+				},
+				"l2":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"Phone 6 磨砂手机壳",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"iPhone 6 plus 磨砂手机壳",
+							"href":"http://www.nuandao.com/shop/6"
+						},
+						"zi3":{
+							"html":"iPhone 5s/5 磨砂手机壳",
+							"href":"http://www.nuandao.com/shop/7"
+					},
+					"zi4":{
+						"html":"Samsung S6 磨砂手机壳",
+						"href":"http://wwww.nuandao.com/shop/8"
+					},
+					"zi5":{
+						"html":"华为荣耀 6 磨砂手机壳",
+						"href":"http://www.nundao.com/shop/9"
+						}
+					}
+				}
+				
+			},
+			"k3":{
+				"class":"zuo6 ",
+				"l1":{
+					"class":"zt",
+					"nv1":{
+					"class":"naxbox",
+					"zi1":{
+						"html":"无框画（15 x 15 厘米）",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"无框画（30 x 30 厘米）",
+							"href":"http://www.nuandao.com/shop/6"
+					},
+					"zi3":{
+							"html":"无框画（45 x 30 厘米）",
+							"href":"http://www.nuandao.com/shop/7"
+					},
+					"zi4":{
+						"html":"Samsung S6 手机壳",
+						"href":"http://wwww.nuandao.com/shop/8"
+						}
+					}
+				},
+				"l2":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"正方形贴纸",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"长方形贴纸",
+							"href":"http://www.nuandao.com/shop/6"
+						},
+						"zi3":{
+							"html":"圆形贴纸",
+							"href":"http://www.nuandao.com/shop/7"
+					},
+					"zi4":{
+						"html":"星形贴纸",
+						"href":"http://wwww.nuandao.com/shop/8"
+					},
+					"zi5":{
+						"html":"心形贴纸",
+						"href":"http://www.nundao.com/shop/9"
+						}
+					}
+				},
+				"l3":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"瓶装饮用水(350ml/瓶)",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"瓶装饮用水(350ml*6 瓶)",
+							"href":"http://www.nuandao.com/shop/6"
+						}
+					}
+				}
+				
+			},
+			"k4":{
+				"class":"zuo6 ",
+				"l1":{
+					"class":"zt",
+					"nv1":{
+					"class":"naxbox",
+					"zi1":{
+						"html":"U盘 16G（白色）",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"U盘 16G（黑色）",
+							"href":"http://www.nuandao.com/shop/6"
+					},
+					"zi3":{
+							"html":"U盘 2G（白色）",
+							"href":"http://www.nuandao.com/shop/7"
+					},
+					"zi4":{
+						"html":"U盘 2G（黑色）",
+						"href":"http://wwww.nuandao.com/shop/8"
+						}
+					}
+				},
+				"l2":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"充电宝 2500 mAh（白色）",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"充电宝 2500 mAh（黑色）",
+							"href":"http://www.nuandao.com/shop/6"
+						},
+						"zi3":{
+							"html":"充电宝 5000 mAh（白色）",
+							"href":"http://www.nuandao.com/shop/7"
+					},
+					"zi4":{
+						"html":"充电宝 5000 mAh（黑色）",
+						"href":"http://wwww.nuandao.com/shop/8"
+						}
+					}
+				},
+				"l3":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"马克杯",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+						}
+					}
+				},
+				"l4":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"布艺书皮(附 A5 空白内页)",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+						}
+					}
+				}
+				
+			},
+			"k5":{
+				"class":"zuo6 ",
+				"l1":{
+					"class":"zt",
+					"nv1":{
+					"class":"naxbox",
+					"zi1":{
+						"html":"白色短袖T恤(S号)",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"白色短袖T恤(M号)",
+							"href":"http://www.nuandao.com/shop/6"
+					},
+					"zi3":{
+							"html":"白色短袖T恤(L号)",
+							"href":"http://www.nuandao.com/shop/7"
+					},
+					"zi4":{
+						"html":"黑色短袖T恤(S号)",
+						"href":"http://wwww.nuandao.com/shop/8"
+					},
+					"zi5":{
+						"html":"黑色短袖T恤(M号)",
+						"href":"http://www.nundao.com/shop/9"
+					},
+					"zi6":{
+						"html":"黑色短袖T恤(L号)",
+						"href":"http://www.nuandao.com/shop/10"
+						}
+					}
+				},
+				"l2":{
+					"class":"zt",
+					"nv1":{
+							"class":"naxbox",
+							"zi1":{
+						"html":"双面蜜桃绒抱枕(45 x 45 cm)",
+						"href":"http://wwww.nuandao.com/shop/1/0-0-0-2-0"
+					},
+					"zi2":{
+							"html":"双面软毛绒抱枕(45 x 45 cm)",
+							"href":"http://www.nuandao.com/shop/6"
+						},
+						"zi3":{
+							"html":"双面蜜桃绒抱枕(35 x 35 cm)",
+							"href":"http://www.nuandao.com/shop/7"
+							},
+					"zi4":{
+						"html":"双面软毛绒抱枕(35 x 35 cm)",
+						"href":"http://wwww.nuandao.com/shop/8"
+						}
+					}
+				}
+				
+			}
+			
+		}
+
+}
